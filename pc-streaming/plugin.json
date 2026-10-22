@@ -1,0 +1,28 @@
+{
+    "id":  "pc-streaming",
+    "name":  "PC Streaming",
+    "publisher":  "DeepPlay",
+    "version":  "1.0",
+    "versionCode":  1,
+    "api":  1,
+    "requires":  "DeepPlay Companion on your Windows PC",
+    "pitch":  "Your Windows PC\u0027s games and desktop, on your TV.",
+    "description":  "Stream games and your desktop from a Windows PC running DeepPlay Companion. Use the controller as a gamepad, or as a mouse and keyboard with the on-screen keyboard.",
+    "tags":  "Streaming,PC",
+    "colors":  "6B3CF0,2A1673,0A0624",
+    "module":  {
+                   "path":  "pc-streaming/module.sprx",
+                   "size":  20721,
+                   "sha256":  "fd14c6a43d009d141a71a64247deb3417f0fb1333b372d9b1b5ff03ec69ebe58"
+               },
+    "icon":  {
+                 "path":  "pc-streaming/icon.png",
+                 "size":  14482,
+                 "sha256":  "fb67b99dea96eda38ed14c0be899472d3ba697c12fbd8fea1b9914d65b37c286"
+             },
+    "background":  {
+                       "path":  "pc-streaming/background.jpg",
+                       "size":  56262,
+                       "sha256":  "2fb238329712046d2eb02af6da636801124b2c0835f4e4c1ded33e6750c64949"
+                   }
+}
