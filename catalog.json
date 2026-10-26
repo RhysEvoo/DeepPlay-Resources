@@ -1,13 +1,13 @@
 {
     "catalog":  1,
-    "updated":  "2026-10-22T20:05:57Z",
+    "updated":  "2026-10-23T19:36:45Z",
     "plugins":  [
                     {
                         "id":  "pc-streaming",
                         "name":  "PC Streaming",
                         "publisher":  "DeepPlay",
-                        "version":  "1.0",
-                        "versionCode":  1,
+                        "version":  "1.1",
+                        "versionCode":  2,
                         "api":  1,
                         "requires":  "DeepPlay Companion on your Windows PC",
                         "pitch":  "Your Windows PC\u0027s games and desktop, on your TV.",
@@ -16,8 +16,8 @@
                         "colors":  "6B3CF0,2A1673,0A0624",
                         "module":  {
                                        "path":  "pc-streaming/module.sprx",
-                                       "size":  20721,
-                                       "sha256":  "fd14c6a43d009d141a71a64247deb3417f0fb1333b372d9b1b5ff03ec69ebe58"
+                                       "size":  20904,
+                                       "sha256":  "b7820bf2ef5f26e41a0206857f846aba4f7188127477933f38e85a0315f55968"
                                    },
                         "icon":  {
                                      "path":  "pc-streaming/icon.png",
@@ -34,8 +34,8 @@
                         "id":  "xbox-remote-play",
                         "name":  "Xbox Remote Play",
                         "publisher":  "DeepPlay",
-                        "version":  "1.0",
-                        "versionCode":  1,
+                        "version":  "1.1",
+                        "versionCode":  2,
                         "api":  1,
                         "requires":  "An Xbox on the same network, with remote features on",
                         "pitch":  "Play the games on your own Xbox, streamed to your PS3 over your home network.",
@@ -44,8 +44,8 @@
                         "colors":  "1D9A1D,0E4D0E,041604",
                         "module":  {
                                        "path":  "xbox-remote-play/module.sprx",
-                                       "size":  15148,
-                                       "sha256":  "629449e430085a5250a4b38e7032536b0906791540ff8ba44eff4b9cd0cddfae"
+                                       "size":  15325,
+                                       "sha256":  "3ce192a8d2b3cac23500a512a299c98d58e54d72abaf07bde52ba5c55c703d10"
                                    },
                         "icon":  {
                                      "path":  "xbox-remote-play/icon.png",

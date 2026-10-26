@@ -2,8 +2,8 @@
     "id":  "pc-streaming",
     "name":  "PC Streaming",
     "publisher":  "DeepPlay",
-    "version":  "1.0",
-    "versionCode":  1,
+    "version":  "1.1",
+    "versionCode":  2,
     "api":  1,
     "requires":  "DeepPlay Companion on your Windows PC",
     "pitch":  "Your Windows PC\u0027s games and desktop, on your TV.",
@@ -12,8 +12,8 @@
     "colors":  "6B3CF0,2A1673,0A0624",
     "module":  {
                    "path":  "pc-streaming/module.sprx",
-                   "size":  20721,
-                   "sha256":  "fd14c6a43d009d141a71a64247deb3417f0fb1333b372d9b1b5ff03ec69ebe58"
+                   "size":  20904,
+                   "sha256":  "b7820bf2ef5f26e41a0206857f846aba4f7188127477933f38e85a0315f55968"
                },
     "icon":  {
                  "path":  "pc-streaming/icon.png",
