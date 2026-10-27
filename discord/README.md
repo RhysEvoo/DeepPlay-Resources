@@ -1,6 +1,6 @@
-# Discord
+# Discord Activity
 
-Your Discord status shows the game you're playing on DeepPlay, with its box art and how long you've been playing: Xbox Cloud Gaming, Xbox Remote Play and PC Streaming. DeepPlay Companion passes it to Discord on your PC. Turn it off any time.
+Shows DeepPlay as your activity on Discord, with the game you're playing, its box art and how long you've been playing: Xbox Cloud Gaming, Xbox Remote Play and PC Streaming. DeepPlay Companion passes it to Discord on your PC. Turn it off any time.
 
 | | |
 | --- | --- |

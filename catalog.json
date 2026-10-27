@@ -1,34 +1,63 @@
 {
     "catalog":  1,
-    "updated":  "2026-10-27T00:04:09Z",
+    "updated":  "2026-10-27T00:29:19Z",
     "plugins":  [
                     {
                         "id":  "discord",
-                        "name":  "Discord",
+                        "name":  "Discord Activity",
                         "publisher":  "DeepPlay",
                         "version":  "1.0",
-                        "versionCode":  1,
+                        "versionCode":  2,
                         "api":  1,
                         "apiMinor":  1,
                         "requires":  "DeepPlay Companion and Discord on your Windows PC",
-                        "pitch":  "Show what you\u0027re playing on your Discord status.",
-                        "description":  "Your Discord status shows the game you\u0027re playing on DeepPlay, with its box art and how long you\u0027ve been playing: Xbox Cloud Gaming, Xbox Remote Play and PC Streaming. DeepPlay Companion passes it to Discord on your PC. Turn it off any time.",
+                        "pitch":  "Shows DeepPlay as your activity on Discord.",
+                        "description":  "Shows DeepPlay as your activity on Discord, with the game you\u0027re playing, its box art and how long you\u0027ve been playing: Xbox Cloud Gaming, Xbox Remote Play and PC Streaming. DeepPlay Companion passes it to Discord on your PC. Turn it off any time.",
                         "tags":  "Social,Discord",
                         "colors":  "5865F2,2B2F8F,0B0C24",
                         "module":  {
                                        "path":  "discord/module.sprx",
-                                       "size":  12790,
-                                       "sha256":  "d3086602e4134a43f77a3b193283da312775e9baebf108ef74693b17af56e8b2"
+                                       "size":  12804,
+                                       "sha256":  "dcdd3a37710475121d86d6a3fbebdbd8523c20d817d297a96c3097701b2a7d64"
                                    },
                         "icon":  {
                                      "path":  "discord/icon.png",
-                                     "size":  7321,
-                                     "sha256":  "28911cabb103b0e77f6f09e2a967375240984602e2eb46d156008f221d302d6e"
+                                     "size":  8614,
+                                     "sha256":  "52986c1304646e0f9acee0c927f42d31394180382b3522d1a49fbe8926d50f72"
                                  },
                         "background":  {
                                            "path":  "discord/background.jpg",
                                            "size":  32312,
                                            "sha256":  "d248e151f6078e4b5fb0cb13ce42e6f323481dab2b306fd6dd2cef504d72e8e1"
+                                       }
+                    },
+                    {
+                        "id":  "geforce-now",
+                        "name":  "GeForce NOW",
+                        "publisher":  "DeepPlay",
+                        "version":  "0.1",
+                        "versionCode":  2,
+                        "api":  1,
+                        "apiMinor":  2,
+                        "requires":  "An NVIDIA account with GeForce NOW",
+                        "pitch":  "Your GeForce NOW library, on your PS3.",
+                        "description":  "Sign in with your NVIDIA account and see the games in your GeForce NOW library. This first version signs in and shows your library; playing your games comes in the next update. Not made by or affiliated with NVIDIA.",
+                        "tags":  "Streaming,Cloud",
+                        "colors":  "76B900,2D4A00,0A0F02",
+                        "module":  {
+                                       "path":  "geforce-now/module.sprx",
+                                       "size":  23970,
+                                       "sha256":  "bd4a55dd93bff8470ca9838565f5650c8b758583a25b67718095ba6006f05362"
+                                   },
+                        "icon":  {
+                                     "path":  "geforce-now/icon.png",
+                                     "size":  14940,
+                                     "sha256":  "bffb75a4653e720a678e650bb76dc4673c254eae7a3017e12de63279d4328747"
+                                 },
+                        "background":  {
+                                           "path":  "geforce-now/background.jpg",
+                                           "size":  53650,
+                                           "sha256":  "be2227d1b5a4a52d7a9c63b7278775e3810123109c78dd96b2c2beea7080b719"
                                        }
                     },
                     {
