@@ -1,7 +1,36 @@
 {
     "catalog":  1,
-    "updated":  "2026-10-23T19:36:45Z",
+    "updated":  "2026-10-27T00:04:09Z",
     "plugins":  [
+                    {
+                        "id":  "discord",
+                        "name":  "Discord",
+                        "publisher":  "DeepPlay",
+                        "version":  "1.0",
+                        "versionCode":  1,
+                        "api":  1,
+                        "apiMinor":  1,
+                        "requires":  "DeepPlay Companion and Discord on your Windows PC",
+                        "pitch":  "Show what you\u0027re playing on your Discord status.",
+                        "description":  "Your Discord status shows the game you\u0027re playing on DeepPlay, with its box art and how long you\u0027ve been playing: Xbox Cloud Gaming, Xbox Remote Play and PC Streaming. DeepPlay Companion passes it to Discord on your PC. Turn it off any time.",
+                        "tags":  "Social,Discord",
+                        "colors":  "5865F2,2B2F8F,0B0C24",
+                        "module":  {
+                                       "path":  "discord/module.sprx",
+                                       "size":  12790,
+                                       "sha256":  "d3086602e4134a43f77a3b193283da312775e9baebf108ef74693b17af56e8b2"
+                                   },
+                        "icon":  {
+                                     "path":  "discord/icon.png",
+                                     "size":  7321,
+                                     "sha256":  "28911cabb103b0e77f6f09e2a967375240984602e2eb46d156008f221d302d6e"
+                                 },
+                        "background":  {
+                                           "path":  "discord/background.jpg",
+                                           "size":  32312,
+                                           "sha256":  "d248e151f6078e4b5fb0cb13ce42e6f323481dab2b306fd6dd2cef504d72e8e1"
+                                       }
+                    },
                     {
                         "id":  "pc-streaming",
                         "name":  "PC Streaming",
