@@ -1,0 +1,31 @@
+{
+    "id":  "xbox-remote-play",
+    "name":  "Xbox Remote Play",
+    "publisher":  "DeepPlay",
+    "version":  "1.2",
+    "versionCode":  4,
+    "api":  1,
+    "apiMinor":  6,
+    "requires":  "An Xbox on the same network, with remote features on",
+    "pitch":  "Play the games on your own Xbox, streamed to your PS3 over your home network.",
+    "description":  "Stream your Xbox Series X|S or Xbox One straight to your PS3. Wake your console from the couch, pick up where you left off and play with your PS3 controller, all over your own network.",
+    "tags":  "Streaming,Xbox",
+    "colors":  "1D9A1D,0E4D0E,041604",
+    "apps":  "deepwater",
+    "minAppVersion":  50,
+    "module":  {
+                   "path":  "deepwater/xbox-remote-play/module.sprx",
+                   "size":  15317,
+                   "sha256":  "2f2a5933bce3edc4922f01c969b43e1e97b9405782661a4d4181bee4ce1c37c7"
+               },
+    "icon":  {
+                 "path":  "deepwater/xbox-remote-play/icon.png",
+                 "size":  10760,
+                 "sha256":  "c20a5a4f55235bafde99e7cf0d0e08aecb603e8d01e282f6670f3a8b270d4ade"
+             },
+    "background":  {
+                       "path":  "deepwater/xbox-remote-play/background.jpg",
+                       "size":  60799,
+                       "sha256":  "b6192eb7896fedee2d2375b4be090d74f16c78c9137926cf231071d6062c4499"
+                   }
+}

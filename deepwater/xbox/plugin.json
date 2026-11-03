@@ -14,17 +14,17 @@
     "apps":  "deepwater",
     "minAppVersion":  50,
     "module":  {
-                   "path":  "xbox/module.sprx",
+                   "path":  "deepwater/xbox/module.sprx",
                    "size":  30809,
-                   "sha256":  "59318a51debb7d263de8213645c687ea8bb2b2a1742e71f30be38a6b16bad8e4"
+                   "sha256":  "bf8495ac234bccda7c5d0e078d21f5453d11a2adadf4398dd2a92c3f14b98761"
                },
     "icon":  {
-                 "path":  "xbox/icon.png",
+                 "path":  "deepwater/xbox/icon.png",
                  "size":  10760,
                  "sha256":  "c20a5a4f55235bafde99e7cf0d0e08aecb603e8d01e282f6670f3a8b270d4ade"
              },
     "background":  {
-                       "path":  "xbox/background.jpg",
+                       "path":  "deepwater/xbox/background.jpg",
                        "size":  60799,
                        "sha256":  "b6192eb7896fedee2d2375b4be090d74f16c78c9137926cf231071d6062c4499"
                    }

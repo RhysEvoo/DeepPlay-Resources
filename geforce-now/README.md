@@ -1,10 +1,10 @@
 # GeForce NOW
 
-Find any of the games GeForce NOW streams, add them to your library, and play them on your PS3. Sign in with your NVIDIA account and link Steam, Epic and other stores from the Account tab. Not made by or affiliated with NVIDIA.
+Sign in with your NVIDIA account and see the games in your GeForce NOW library. This first version signs in and shows your library; playing your games comes in the next update. Not made by or affiliated with NVIDIA.
 
 | | |
 | --- | --- |
-| Version | 0.4 |
+| Version | 0.1 |
 | Publisher | DeepPlay |
 | Needs | An NVIDIA account with GeForce NOW |
 | Kind | Streaming, Cloud |

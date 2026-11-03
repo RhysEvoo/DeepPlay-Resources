@@ -2,21 +2,19 @@
     "id":  "geforce-now",
     "name":  "GeForce NOW",
     "publisher":  "DeepPlay",
-    "version":  "0.4",
-    "versionCode":  11,
+    "version":  "0.1",
+    "versionCode":  3,
     "api":  1,
-    "apiMinor":  6,
+    "apiMinor":  2,
     "requires":  "An NVIDIA account with GeForce NOW",
-    "pitch":  "Play your GeForce NOW games on your PS3.",
-    "description":  "Find any of the games GeForce NOW streams, add them to your library, and play them on your PS3. Sign in with your NVIDIA account and link Steam, Epic and other stores from the Account tab. Not made by or affiliated with NVIDIA.",
+    "pitch":  "Your GeForce NOW library, on your PS3.",
+    "description":  "Sign in with your NVIDIA account and see the games in your GeForce NOW library. This first version signs in and shows your library; playing your games comes in the next update. Not made by or affiliated with NVIDIA.",
     "tags":  "Streaming,Cloud",
     "colors":  "76B900,2D4A00,0A0F02",
-    "apps":  "deepwater",
-    "minAppVersion":  50,
     "module":  {
                    "path":  "geforce-now/module.sprx",
-                   "size":  55425,
-                   "sha256":  "fe1efc932f38023a4aee0f043512599c95eb88d1ff404a4cc7f677d57093d663"
+                   "size":  24040,
+                   "sha256":  "1a45979c1f9a525f19a38e88b5fced2042e6e0a2796d15c83206a1cc3bb1c547"
                },
     "icon":  {
                  "path":  "geforce-now/icon.png",
