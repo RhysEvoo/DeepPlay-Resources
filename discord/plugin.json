@@ -2,19 +2,21 @@
     "id":  "discord",
     "name":  "Discord Activity",
     "publisher":  "DeepPlay",
-    "version":  "1.0",
-    "versionCode":  2,
+    "version":  "1.1",
+    "versionCode":  5,
     "api":  1,
-    "apiMinor":  1,
+    "apiMinor":  6,
     "requires":  "DeepPlay Companion and Discord on your Windows PC",
     "pitch":  "Shows DeepPlay as your activity on Discord.",
     "description":  "Shows DeepPlay as your activity on Discord, with the game you\u0027re playing, its box art and how long you\u0027ve been playing: Xbox Cloud Gaming, Xbox Remote Play and PC Streaming. DeepPlay Companion passes it to Discord on your PC. Turn it off any time.",
     "tags":  "Social,Discord",
     "colors":  "5865F2,2B2F8F,0B0C24",
+    "apps":  "deepwater",
+    "minAppVersion":  50,
     "module":  {
                    "path":  "discord/module.sprx",
-                   "size":  12804,
-                   "sha256":  "dcdd3a37710475121d86d6a3fbebdbd8523c20d817d297a96c3097701b2a7d64"
+                   "size":  12853,
+                   "sha256":  "0ad1cb980c28b0dab5fbd71f255db7bd06eed605eb40003808c2bb29eafe321d"
                },
     "icon":  {
                  "path":  "discord/icon.png",

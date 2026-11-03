@@ -1,24 +1,26 @@
 {
     "catalog":  1,
-    "updated":  "2026-10-27T00:44:08Z",
+    "updated":  "2026-11-03T18:07:48Z",
     "plugins":  [
                     {
                         "id":  "discord",
                         "name":  "Discord Activity",
                         "publisher":  "DeepPlay",
-                        "version":  "1.0",
-                        "versionCode":  2,
+                        "version":  "1.1",
+                        "versionCode":  5,
                         "api":  1,
-                        "apiMinor":  1,
+                        "apiMinor":  6,
                         "requires":  "DeepPlay Companion and Discord on your Windows PC",
                         "pitch":  "Shows DeepPlay as your activity on Discord.",
                         "description":  "Shows DeepPlay as your activity on Discord, with the game you\u0027re playing, its box art and how long you\u0027ve been playing: Xbox Cloud Gaming, Xbox Remote Play and PC Streaming. DeepPlay Companion passes it to Discord on your PC. Turn it off any time.",
                         "tags":  "Social,Discord",
                         "colors":  "5865F2,2B2F8F,0B0C24",
+                        "apps":  "deepwater",
+                        "minAppVersion":  50,
                         "module":  {
                                        "path":  "discord/module.sprx",
-                                       "size":  12804,
-                                       "sha256":  "dcdd3a37710475121d86d6a3fbebdbd8523c20d817d297a96c3097701b2a7d64"
+                                       "size":  12853,
+                                       "sha256":  "0ad1cb980c28b0dab5fbd71f255db7bd06eed605eb40003808c2bb29eafe321d"
                                    },
                         "icon":  {
                                      "path":  "discord/icon.png",
@@ -35,19 +37,21 @@
                         "id":  "geforce-now",
                         "name":  "GeForce NOW",
                         "publisher":  "DeepPlay",
-                        "version":  "0.1",
-                        "versionCode":  3,
+                        "version":  "0.4",
+                        "versionCode":  11,
                         "api":  1,
-                        "apiMinor":  2,
+                        "apiMinor":  6,
                         "requires":  "An NVIDIA account with GeForce NOW",
-                        "pitch":  "Your GeForce NOW library, on your PS3.",
-                        "description":  "Sign in with your NVIDIA account and see the games in your GeForce NOW library. This first version signs in and shows your library; playing your games comes in the next update. Not made by or affiliated with NVIDIA.",
+                        "pitch":  "Play your GeForce NOW games on your PS3.",
+                        "description":  "Find any of the games GeForce NOW streams, add them to your library, and play them on your PS3. Sign in with your NVIDIA account and link Steam, Epic and other stores from the Account tab. Not made by or affiliated with NVIDIA.",
                         "tags":  "Streaming,Cloud",
                         "colors":  "76B900,2D4A00,0A0F02",
+                        "apps":  "deepwater",
+                        "minAppVersion":  50,
                         "module":  {
                                        "path":  "geforce-now/module.sprx",
-                                       "size":  24040,
-                                       "sha256":  "1a45979c1f9a525f19a38e88b5fced2042e6e0a2796d15c83206a1cc3bb1c547"
+                                       "size":  55425,
+                                       "sha256":  "fe1efc932f38023a4aee0f043512599c95eb88d1ff404a4cc7f677d57093d663"
                                    },
                         "icon":  {
                                      "path":  "geforce-now/icon.png",
@@ -64,18 +68,21 @@
                         "id":  "pc-streaming",
                         "name":  "PC Streaming",
                         "publisher":  "DeepPlay",
-                        "version":  "1.1",
-                        "versionCode":  2,
+                        "version":  "1.2",
+                        "versionCode":  4,
                         "api":  1,
+                        "apiMinor":  6,
                         "requires":  "DeepPlay Companion on your Windows PC",
                         "pitch":  "Your Windows PC\u0027s games and desktop, on your TV.",
                         "description":  "Stream games and your desktop from a Windows PC running DeepPlay Companion. Use the controller as a gamepad, or as a mouse and keyboard with the on-screen keyboard.",
                         "tags":  "Streaming,PC",
                         "colors":  "6B3CF0,2A1673,0A0624",
+                        "apps":  "deepwater",
+                        "minAppVersion":  50,
                         "module":  {
                                        "path":  "pc-streaming/module.sprx",
-                                       "size":  20904,
-                                       "sha256":  "b7820bf2ef5f26e41a0206857f846aba4f7188127477933f38e85a0315f55968"
+                                       "size":  20915,
+                                       "sha256":  "932e83f472dea9c23cd6a7ae160745310ad09f11e7ffe3d4a75ea1d1c4f2d659"
                                    },
                         "icon":  {
                                      "path":  "pc-streaming/icon.png",
@@ -89,21 +96,55 @@
                                        }
                     },
                     {
+                        "id":  "xbox",
+                        "name":  "Xbox",
+                        "publisher":  "DeepPlay",
+                        "version":  "0.1",
+                        "versionCode":  2,
+                        "api":  1,
+                        "apiMinor":  6,
+                        "requires":  "A Microsoft account, linked to your DeepPlay user",
+                        "pitch":  "The Xbox app: find cloud games, add them to your library, and message your friends.",
+                        "description":  "Browse the games you can stream with Xbox Cloud Gaming and add them to your library, play them, see your Gamerscore and membership, and send and receive messages with your Xbox friends, all on your PS3. Link a Microsoft account to your DeepPlay user to start. Not made by or affiliated with Microsoft.",
+                        "tags":  "Cloud,Xbox,Social",
+                        "colors":  "1D9A1D,0E4D0E,041604",
+                        "apps":  "deepwater",
+                        "minAppVersion":  50,
+                        "module":  {
+                                       "path":  "xbox/module.sprx",
+                                       "size":  30809,
+                                       "sha256":  "59318a51debb7d263de8213645c687ea8bb2b2a1742e71f30be38a6b16bad8e4"
+                                   },
+                        "icon":  {
+                                     "path":  "xbox/icon.png",
+                                     "size":  10760,
+                                     "sha256":  "c20a5a4f55235bafde99e7cf0d0e08aecb603e8d01e282f6670f3a8b270d4ade"
+                                 },
+                        "background":  {
+                                           "path":  "xbox/background.jpg",
+                                           "size":  60799,
+                                           "sha256":  "b6192eb7896fedee2d2375b4be090d74f16c78c9137926cf231071d6062c4499"
+                                       }
+                    },
+                    {
                         "id":  "xbox-remote-play",
                         "name":  "Xbox Remote Play",
                         "publisher":  "DeepPlay",
-                        "version":  "1.1",
-                        "versionCode":  2,
+                        "version":  "1.2",
+                        "versionCode":  4,
                         "api":  1,
+                        "apiMinor":  6,
                         "requires":  "An Xbox on the same network, with remote features on",
                         "pitch":  "Play the games on your own Xbox, streamed to your PS3 over your home network.",
                         "description":  "Stream your Xbox Series X|S or Xbox One straight to your PS3. Wake your console from the couch, pick up where you left off and play with your PS3 controller, all over your own network.",
                         "tags":  "Streaming,Xbox",
                         "colors":  "1D9A1D,0E4D0E,041604",
+                        "apps":  "deepwater",
+                        "minAppVersion":  50,
                         "module":  {
                                        "path":  "xbox-remote-play/module.sprx",
-                                       "size":  15325,
-                                       "sha256":  "3ce192a8d2b3cac23500a512a299c98d58e54d72abaf07bde52ba5c55c703d10"
+                                       "size":  15317,
+                                       "sha256":  "e32cc5139470f07c8c4755fa6ea1bfb88a8eec43adfed53ad1bbe183adf41bfb"
                                    },
                         "icon":  {
                                      "path":  "xbox-remote-play/icon.png",
