@@ -1,0 +1,31 @@
+{
+    "id":  "xbox",
+    "name":  "Xbox",
+    "publisher":  "DeepPlay",
+    "version":  "0.3",
+    "versionCode":  4,
+    "api":  1,
+    "apiMinor":  6,
+    "requires":  "A Microsoft account, linked to your DeepPlay user",
+    "pitch":  "The Xbox app: find cloud games, add them to your library, and message your friends.",
+    "description":  "Browse the games you can stream with Xbox Cloud Gaming and add them to your library, play them, see your Gamerscore and membership, and send and receive messages with your Xbox friends, all on your PS3. Link a Microsoft account to your DeepPlay user to start. Not made by or affiliated with Microsoft.",
+    "tags":  "Cloud,Xbox,Social",
+    "colors":  "1D9A1D,0E4D0E,041604",
+    "apps":  "deepplay",
+    "minAppVersion":  5,
+    "module":  {
+                   "path":  "xbox/module.sprx",
+                   "size":  30819,
+                   "sha256":  "341e9456e7d484f4ed67cfe1c4e3737c0fdb9b89e4ed8222b4682f3e1d498d59"
+               },
+    "icon":  {
+                 "path":  "xbox/icon.png",
+                 "size":  10760,
+                 "sha256":  "c20a5a4f55235bafde99e7cf0d0e08aecb603e8d01e282f6670f3a8b270d4ade"
+             },
+    "background":  {
+                       "path":  "xbox/background.jpg",
+                       "size":  60799,
+                       "sha256":  "b6192eb7896fedee2d2375b4be090d74f16c78c9137926cf231071d6062c4499"
+                   }
+}

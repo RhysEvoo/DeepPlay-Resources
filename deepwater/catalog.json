@@ -1,7 +1,7 @@
 {
     "catalog":  1,
     "channel":  "early",
-    "updated":  "2026-11-07T06:30:21Z",
+    "updated":  "2026-11-07T16:24:19Z",
     "plugins":  [
                     {
                         "id":  "discord",
@@ -100,8 +100,8 @@
                         "id":  "xbox",
                         "name":  "Xbox",
                         "publisher":  "DeepPlay",
-                        "version":  "0.3",
-                        "versionCode":  4,
+                        "version":  "0.4",
+                        "versionCode":  5,
                         "api":  1,
                         "apiMinor":  6,
                         "requires":  "A Microsoft account, linked to your DeepPlay user",
@@ -114,7 +114,7 @@
                         "module":  {
                                        "path":  "deepwater/xbox/module.sprx",
                                        "size":  30819,
-                                       "sha256":  "30b682ada7a1b24a5ac36fe1cf993e19c2da412f333c35da9223bc5d329e73fa"
+                                       "sha256":  "b4e3b686563859f6b40c31b9b3ca5fc6595104923f9480bb03774394964576f9"
                                    },
                         "icon":  {
                                      "path":  "deepwater/xbox/icon.png",
