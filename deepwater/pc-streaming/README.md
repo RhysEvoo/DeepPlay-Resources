@@ -4,7 +4,7 @@ Stream games and your desktop from a Windows PC running DeepPlay Companion. Use 
 
 | | |
 | --- | --- |
-| Version | 1.5 |
+| Version | 1.6 |
 | Publisher | DeepPlay |
 | Needs | DeepPlay Companion on your Windows PC |
 | Kind | Streaming, PC |
