@@ -2,8 +2,8 @@
     "id":  "discord",
     "name":  "Discord Activity",
     "publisher":  "DeepPlay",
-    "version":  "1.1",
-    "versionCode":  5,
+    "version":  "1.2",
+    "versionCode":  6,
     "api":  1,
     "apiMinor":  6,
     "requires":  "DeepPlay Companion and Discord on your Windows PC",
@@ -15,8 +15,8 @@
     "minAppVersion":  50,
     "module":  {
                    "path":  "deepwater/discord/module.sprx",
-                   "size":  12853,
-                   "sha256":  "81b504eac25ed9df852e54292bc1f04932b3a853cd4ad9f92bd41aab3f674176"
+                   "size":  12913,
+                   "sha256":  "86ef8f26bde4b16941e480627e9cb43c26232728773c246e53fb7bc41980db44"
                },
     "icon":  {
                  "path":  "deepwater/discord/icon.png",

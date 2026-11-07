@@ -1,14 +1,14 @@
 {
     "catalog":  1,
     "channel":  "early",
-    "updated":  "2026-11-07T00:23:14Z",
+    "updated":  "2026-11-07T03:19:28Z",
     "plugins":  [
                     {
                         "id":  "discord",
                         "name":  "Discord Activity",
                         "publisher":  "DeepPlay",
-                        "version":  "1.1",
-                        "versionCode":  5,
+                        "version":  "1.2",
+                        "versionCode":  6,
                         "api":  1,
                         "apiMinor":  6,
                         "requires":  "DeepPlay Companion and Discord on your Windows PC",
@@ -20,8 +20,8 @@
                         "minAppVersion":  50,
                         "module":  {
                                        "path":  "deepwater/discord/module.sprx",
-                                       "size":  12853,
-                                       "sha256":  "81b504eac25ed9df852e54292bc1f04932b3a853cd4ad9f92bd41aab3f674176"
+                                       "size":  12913,
+                                       "sha256":  "86ef8f26bde4b16941e480627e9cb43c26232728773c246e53fb7bc41980db44"
                                    },
                         "icon":  {
                                      "path":  "deepwater/discord/icon.png",
@@ -38,8 +38,8 @@
                         "id":  "geforce-now",
                         "name":  "GeForce NOW",
                         "publisher":  "DeepPlay",
-                        "version":  "0.4",
-                        "versionCode":  11,
+                        "version":  "0.5",
+                        "versionCode":  12,
                         "api":  1,
                         "apiMinor":  6,
                         "requires":  "An NVIDIA account with GeForce NOW",
@@ -51,8 +51,8 @@
                         "minAppVersion":  50,
                         "module":  {
                                        "path":  "deepwater/geforce-now/module.sprx",
-                                       "size":  55425,
-                                       "sha256":  "96480e27b06642440359a6649dc832b245127be007258a32369faa6d53460d15"
+                                       "size":  55727,
+                                       "sha256":  "a0dcb77fc50fc7108a2927c336ce8d6301a01117ef9e67987b342f07b57344b3"
                                    },
                         "icon":  {
                                      "path":  "deepwater/geforce-now/icon.png",
@@ -69,8 +69,8 @@
                         "id":  "pc-streaming",
                         "name":  "PC Streaming",
                         "publisher":  "DeepPlay",
-                        "version":  "1.3",
-                        "versionCode":  5,
+                        "version":  "1.4",
+                        "versionCode":  6,
                         "api":  1,
                         "apiMinor":  6,
                         "requires":  "DeepPlay Companion on your Windows PC",
@@ -82,8 +82,8 @@
                         "minAppVersion":  50,
                         "module":  {
                                        "path":  "deepwater/pc-streaming/module.sprx",
-                                       "size":  20915,
-                                       "sha256":  "8ce4cb90510b940adb96182da59968a6d50b24d6cc616ad244b5bce19061c6a8"
+                                       "size":  21127,
+                                       "sha256":  "aa981ade262d7cb01176fe4e24e8e0a9df672344d14c39bf671b33d590856b87"
                                    },
                         "icon":  {
                                      "path":  "deepwater/pc-streaming/icon.png",
@@ -100,8 +100,8 @@
                         "id":  "xbox",
                         "name":  "Xbox",
                         "publisher":  "DeepPlay",
-                        "version":  "0.1",
-                        "versionCode":  2,
+                        "version":  "0.2",
+                        "versionCode":  3,
                         "api":  1,
                         "apiMinor":  6,
                         "requires":  "A Microsoft account, linked to your DeepPlay user",
@@ -113,8 +113,8 @@
                         "minAppVersion":  50,
                         "module":  {
                                        "path":  "deepwater/xbox/module.sprx",
-                                       "size":  30809,
-                                       "sha256":  "bf8495ac234bccda7c5d0e078d21f5453d11a2adadf4398dd2a92c3f14b98761"
+                                       "size":  30947,
+                                       "sha256":  "4ba5697d740a77e10cceb85b589dca063143374ab1e338b53af7212c6ad1005d"
                                    },
                         "icon":  {
                                      "path":  "deepwater/xbox/icon.png",
@@ -131,8 +131,8 @@
                         "id":  "xbox-remote-play",
                         "name":  "Xbox Remote Play",
                         "publisher":  "DeepPlay",
-                        "version":  "1.3",
-                        "versionCode":  5,
+                        "version":  "1.4",
+                        "versionCode":  6,
                         "api":  1,
                         "apiMinor":  6,
                         "requires":  "An Xbox on the same network, with remote features on",
@@ -144,8 +144,8 @@
                         "minAppVersion":  50,
                         "module":  {
                                        "path":  "deepwater/xbox-remote-play/module.sprx",
-                                       "size":  15317,
-                                       "sha256":  "0e2e58250bafe1d428389fbf48f19dd9580e7060dd2e16e4591a48de958a8b31"
+                                       "size":  15457,
+                                       "sha256":  "7fd4f06e1f6d6c9825c3e0dfc11bfd38857f3230bfe7fbc1f22f3cd1e7b69d76"
                                    },
                         "icon":  {
                                      "path":  "deepwater/xbox-remote-play/icon.png",
