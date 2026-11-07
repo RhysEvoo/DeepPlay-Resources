@@ -2,8 +2,8 @@
     "id":  "geforce-now",
     "name":  "GeForce NOW",
     "publisher":  "DeepPlay",
-    "version":  "0.11",
-    "versionCode":  18,
+    "version":  "0.12",
+    "versionCode":  19,
     "api":  1,
     "apiMinor":  6,
     "requires":  "A GeForce NOW account (NVIDIA, or a partner such as ABYA)",
@@ -15,8 +15,8 @@
     "minAppVersion":  50,
     "module":  {
                    "path":  "deepwater/geforce-now/module.sprx",
-                   "size":  59177,
-                   "sha256":  "aa1c3b45ddc06dec35eeb13a4f8993305fb7314069bd06c2ef78f368620132ed"
+                   "size":  59205,
+                   "sha256":  "ae07fdc53f73205f000f37852a579d029bb2a64b21d82189766d08d92e3f3570"
                },
     "icon":  {
                  "path":  "deepwater/geforce-now/icon.png",

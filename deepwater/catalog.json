@@ -1,7 +1,7 @@
 {
     "catalog":  1,
     "channel":  "early",
-    "updated":  "2026-11-07T17:52:06Z",
+    "updated":  "2026-11-07T21:13:18Z",
     "plugins":  [
                     {
                         "id":  "discord",
@@ -38,8 +38,8 @@
                         "id":  "geforce-now",
                         "name":  "GeForce NOW",
                         "publisher":  "DeepPlay",
-                        "version":  "0.11",
-                        "versionCode":  18,
+                        "version":  "0.12",
+                        "versionCode":  19,
                         "api":  1,
                         "apiMinor":  6,
                         "requires":  "A GeForce NOW account (NVIDIA, or a partner such as ABYA)",
@@ -51,8 +51,8 @@
                         "minAppVersion":  50,
                         "module":  {
                                        "path":  "deepwater/geforce-now/module.sprx",
-                                       "size":  59177,
-                                       "sha256":  "aa1c3b45ddc06dec35eeb13a4f8993305fb7314069bd06c2ef78f368620132ed"
+                                       "size":  59205,
+                                       "sha256":  "ae07fdc53f73205f000f37852a579d029bb2a64b21d82189766d08d92e3f3570"
                                    },
                         "icon":  {
                                      "path":  "deepwater/geforce-now/icon.png",
@@ -69,8 +69,8 @@
                         "id":  "pc-streaming",
                         "name":  "PC Streaming",
                         "publisher":  "DeepPlay",
-                        "version":  "1.6",
-                        "versionCode":  8,
+                        "version":  "1.7",
+                        "versionCode":  9,
                         "api":  1,
                         "apiMinor":  6,
                         "requires":  "DeepPlay Companion on your Windows PC",
@@ -82,8 +82,8 @@
                         "minAppVersion":  50,
                         "module":  {
                                        "path":  "deepwater/pc-streaming/module.sprx",
-                                       "size":  20999,
-                                       "sha256":  "e215b1afdcfb0424e00c5e98d09a0ed2f016f944e78ebb7a5e13e941326ee086"
+                                       "size":  21293,
+                                       "sha256":  "778552cc4869ec7b6062900763ddadd41cac1e0eb3851b07c759aaeefb59ebe0"
                                    },
                         "icon":  {
                                      "path":  "deepwater/pc-streaming/icon.png",
@@ -131,8 +131,8 @@
                         "id":  "xbox-remote-play",
                         "name":  "Xbox Remote Play",
                         "publisher":  "DeepPlay",
-                        "version":  "1.6",
-                        "versionCode":  8,
+                        "version":  "1.7",
+                        "versionCode":  9,
                         "api":  1,
                         "apiMinor":  6,
                         "requires":  "An Xbox on the same network, with remote features on",
@@ -144,8 +144,8 @@
                         "minAppVersion":  50,
                         "module":  {
                                        "path":  "deepwater/xbox-remote-play/module.sprx",
-                                       "size":  15329,
-                                       "sha256":  "687d4bc2124995db411175bcb94be4ee32a0368f7b4bfe74fd9fa2fba60f8cb5"
+                                       "size":  15333,
+                                       "sha256":  "bff59ca7cc68b5c213f43f7180ea695f379e2a4572231154546adf3725b1c407"
                                    },
                         "icon":  {
                                      "path":  "deepwater/xbox-remote-play/icon.png",

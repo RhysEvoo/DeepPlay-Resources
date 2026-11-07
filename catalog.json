@@ -1,14 +1,14 @@
 {
     "catalog":  1,
     "channel":  "public",
-    "updated":  "2026-11-07T16:24:19Z",
+    "updated":  "2026-11-07T21:13:18Z",
     "plugins":  [
                     {
                         "id":  "pc-streaming",
                         "name":  "PC Streaming",
                         "publisher":  "DeepPlay",
-                        "version":  "1.3",
-                        "versionCode":  4,
+                        "version":  "1.4",
+                        "versionCode":  5,
                         "api":  1,
                         "apiMinor":  6,
                         "requires":  "DeepPlay Companion on your Windows PC",
@@ -20,8 +20,8 @@
                         "minAppVersion":  5,
                         "module":  {
                                        "path":  "pc-streaming/module.sprx",
-                                       "size":  20999,
-                                       "sha256":  "907ab7e96ac25b6991922c59664a5ced77e6d61123fd4fb15d0231a038e58de4"
+                                       "size":  21293,
+                                       "sha256":  "21f134e1ccc67eda732fdd4b2fbf2d55ef51a5e0fc269fb26db20e5205d91643"
                                    },
                         "icon":  {
                                      "path":  "pc-streaming/icon.png",
@@ -69,8 +69,8 @@
                         "id":  "xbox-remote-play",
                         "name":  "Xbox Remote Play",
                         "publisher":  "DeepPlay",
-                        "version":  "1.3",
-                        "versionCode":  4,
+                        "version":  "1.4",
+                        "versionCode":  5,
                         "api":  1,
                         "apiMinor":  6,
                         "requires":  "An Xbox on the same network, with remote features on",
@@ -82,8 +82,8 @@
                         "minAppVersion":  5,
                         "module":  {
                                        "path":  "xbox-remote-play/module.sprx",
-                                       "size":  15329,
-                                       "sha256":  "b3d5d9b9ed91232ce9bc8693e1c299d9326f68f671e6beae3b6921138c96f187"
+                                       "size":  15333,
+                                       "sha256":  "9b9fc4d614d5d521735a5454183d16c58b3dc1e57484c03afae1c8a1caa5837e"
                                    },
                         "icon":  {
                                      "path":  "xbox-remote-play/icon.png",
