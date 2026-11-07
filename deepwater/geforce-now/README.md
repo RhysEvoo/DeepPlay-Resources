@@ -4,7 +4,7 @@ Find any of the games GeForce NOW streams, add them to your library, and play th
 
 | | |
 | --- | --- |
-| Version | 0.5 |
+| Version | 0.6 |
 | Publisher | DeepPlay |
 | Needs | An NVIDIA account with GeForce NOW |
 | Kind | Streaming, Cloud |

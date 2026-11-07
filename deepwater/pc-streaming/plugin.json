@@ -2,8 +2,8 @@
     "id":  "pc-streaming",
     "name":  "PC Streaming",
     "publisher":  "DeepPlay",
-    "version":  "1.4",
-    "versionCode":  6,
+    "version":  "1.5",
+    "versionCode":  7,
     "api":  1,
     "apiMinor":  6,
     "requires":  "DeepPlay Companion on your Windows PC",
@@ -15,8 +15,8 @@
     "minAppVersion":  50,
     "module":  {
                    "path":  "deepwater/pc-streaming/module.sprx",
-                   "size":  21127,
-                   "sha256":  "aa981ade262d7cb01176fe4e24e8e0a9df672344d14c39bf671b33d590856b87"
+                   "size":  20999,
+                   "sha256":  "c5f6f860cdb06046c633f5fee6934bf201e1bb803b26530acf09ecc9d6b614b8"
                },
     "icon":  {
                  "path":  "deepwater/pc-streaming/icon.png",

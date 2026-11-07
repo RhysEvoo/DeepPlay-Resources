@@ -4,7 +4,7 @@ Stream your Xbox Series X|S or Xbox One straight to your PS3. Wake your console 
 
 | | |
 | --- | --- |
-| Version | 1.4 |
+| Version | 1.5 |
 | Publisher | DeepPlay |
 | Needs | An Xbox on the same network, with remote features on |
 | Kind | Streaming, Xbox |

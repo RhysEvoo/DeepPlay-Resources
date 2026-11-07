@@ -2,8 +2,8 @@
     "id":  "xbox",
     "name":  "Xbox",
     "publisher":  "DeepPlay",
-    "version":  "0.2",
-    "versionCode":  3,
+    "version":  "0.3",
+    "versionCode":  4,
     "api":  1,
     "apiMinor":  6,
     "requires":  "A Microsoft account, linked to your DeepPlay user",
@@ -15,8 +15,8 @@
     "minAppVersion":  50,
     "module":  {
                    "path":  "deepwater/xbox/module.sprx",
-                   "size":  30947,
-                   "sha256":  "4ba5697d740a77e10cceb85b589dca063143374ab1e338b53af7212c6ad1005d"
+                   "size":  30819,
+                   "sha256":  "30b682ada7a1b24a5ac36fe1cf993e19c2da412f333c35da9223bc5d329e73fa"
                },
     "icon":  {
                  "path":  "deepwater/xbox/icon.png",

@@ -4,7 +4,7 @@ Browse the games you can stream with Xbox Cloud Gaming and add them to your libr
 
 | | |
 | --- | --- |
-| Version | 0.2 |
+| Version | 0.3 |
 | Publisher | DeepPlay |
 | Needs | A Microsoft account, linked to your DeepPlay user |
 | Kind | Cloud, Xbox, Social |

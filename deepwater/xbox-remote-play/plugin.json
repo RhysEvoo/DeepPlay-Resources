@@ -2,8 +2,8 @@
     "id":  "xbox-remote-play",
     "name":  "Xbox Remote Play",
     "publisher":  "DeepPlay",
-    "version":  "1.4",
-    "versionCode":  6,
+    "version":  "1.5",
+    "versionCode":  7,
     "api":  1,
     "apiMinor":  6,
     "requires":  "An Xbox on the same network, with remote features on",
@@ -15,8 +15,8 @@
     "minAppVersion":  50,
     "module":  {
                    "path":  "deepwater/xbox-remote-play/module.sprx",
-                   "size":  15457,
-                   "sha256":  "7fd4f06e1f6d6c9825c3e0dfc11bfd38857f3230bfe7fbc1f22f3cd1e7b69d76"
+                   "size":  15329,
+                   "sha256":  "e67a0ab1e83761027641d5e75cf4c9cfacdc05fba65aa3a67bcc657086e2a982"
                },
     "icon":  {
                  "path":  "deepwater/xbox-remote-play/icon.png",
