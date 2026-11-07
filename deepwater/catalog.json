@@ -1,7 +1,7 @@
 {
     "catalog":  1,
     "channel":  "early",
-    "updated":  "2026-11-07T22:41:09Z",
+    "updated":  "2026-11-07T23:17:38Z",
     "plugins":  [
                     {
                         "id":  "discord",
@@ -38,8 +38,8 @@
                         "id":  "geforce-now",
                         "name":  "GeForce NOW",
                         "publisher":  "DeepPlay",
-                        "version":  "0.14",
-                        "versionCode":  21,
+                        "version":  "0.15",
+                        "versionCode":  22,
                         "api":  1,
                         "apiMinor":  6,
                         "requires":  "A GeForce NOW account (NVIDIA, or a partner such as ABYA)",
@@ -51,8 +51,8 @@
                         "minAppVersion":  50,
                         "module":  {
                                        "path":  "deepwater/geforce-now/module.sprx",
-                                       "size":  59876,
-                                       "sha256":  "01b2e2df546596d5c26f38a486b7c9e8547b37333a82dfe3c66e68f0f3aa7364"
+                                       "size":  60338,
+                                       "sha256":  "0531dfc4a32f84b37cf4cefff30fd5571d643b466f1319512d82f9a87bb6eaf1"
                                    },
                         "icon":  {
                                      "path":  "deepwater/geforce-now/icon.png",
