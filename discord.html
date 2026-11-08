@@ -35,6 +35,7 @@
              border-top-color: var(--ink); animation: spin 0.9s linear infinite; }
   .mark { width: 22px; height: 22px; flex: none; border-radius: 50%; display: grid; place-items: center; font-weight: 600;
           font-size: 14px; background: var(--error); color: #fff; }
+  .mark.ok { background: #fff; color: #0b0d14; }
   .panel span { font-size: 15px; color: var(--ink); }
   /* the PS5's focused button: white with dark text, and its halo */
   .button { align-self: flex-start; display: inline-block; padding: 13px 30px; border-radius: 999px; background: #fff;
@@ -278,6 +279,29 @@ var Shapes = (function () {
   var fields = new URLSearchParams(location.hash.slice(1));
   if (!fields.toString()) fields = new URLSearchParams(location.search.slice(1));   // an error comes in the query
   if (fields.get('preview') === 'ok') { show('Sending it to your PS3', 'Keep your phone on the same network as the PS3, then look at your TV.', 'Sending...'); return; }
+  // back from the PS3, which checked the role: how it went (#result=...)
+  var result = fields.get('result');
+  if (result) {
+    if (result === 'ok') {
+      show('You\'re in', 'Look at your PS3: Project DeepWater is opening. You can close this page.', 'Linked with the Beta Tester role');
+      icon.className = 'mark ok'; icon.textContent = '✓';
+    } else if (result === 'norole') {
+      fail('No Beta Tester role', 'Your Discord account is linked, but it doesn\'t have the Beta Tester role in the DeepPlay server yet.',
+           'Your PS3 checks again every 10 seconds, and opens once you have it.');
+    } else if (result === 'notmember') {
+      fail('Not in the DeepPlay server', 'Join the DeepPlay Discord server and get the Beta Tester role.',
+           'Your PS3 checks again every 10 seconds, and opens once you have it.');
+    } else if (result === 'denied') {
+      fail('Discord wasn\'t linked', 'Discord didn\'t give permission. Scan the QR code on your TV to try again.', 'Nothing was linked.');
+    } else if (result === 'refused') {
+      fail('Discord\'s sign-in didn\'t work', 'Scan the QR code on your TV to try again.', 'Nothing was linked.');
+    } else if (result === 'stale') {
+      fail('That code has changed', 'Project DeepWater was restarted since you scanned. Scan the QR code on your TV again.', 'Nothing was linked.');
+    } else {
+      fail('Discord couldn\'t be reached', 'Your PS3 couldn\'t reach Discord. It tries again every 10 seconds.', 'Check the PS3\'s internet connection.');
+    }
+    return;
+  }
   var parts = (fields.get('state') || '').split(':');
   var ip = parts[0] || '', port = parts[1] || '', nonce = parts[2] || '';
   // only ever a PS3 on a home network: a private address and a plain port
