@@ -1,7 +1,7 @@
 {
     "catalog":  1,
     "channel":  "early",
-    "updated":  "2026-11-08T02:21:47Z",
+    "updated":  "2026-11-08T04:59:59Z",
     "plugins":  [
                     {
                         "id":  "discord",
@@ -17,7 +17,7 @@
                         "tags":  "Social,Discord",
                         "colors":  "5865F2,2B2F8F,0B0C24",
                         "apps":  "deepwater",
-                        "minAppVersion":  50,
+                        "minAppVersion":  57,
                         "module":  {
                                        "path":  "deepwater/discord/module.sprx",
                                        "size":  12785,
@@ -38,8 +38,8 @@
                         "id":  "geforce-now",
                         "name":  "GeForce NOW",
                         "publisher":  "DeepPlay",
-                        "version":  "0.17",
-                        "versionCode":  24,
+                        "version":  "0.18",
+                        "versionCode":  25,
                         "api":  1,
                         "apiMinor":  6,
                         "requires":  "A GeForce NOW account (NVIDIA, or a partner such as ABYA)",
@@ -48,11 +48,11 @@
                         "tags":  "Streaming,Cloud",
                         "colors":  "76B900,2D4A00,0A0F02",
                         "apps":  "deepwater",
-                        "minAppVersion":  50,
+                        "minAppVersion":  57,
                         "module":  {
                                        "path":  "deepwater/geforce-now/module.sprx",
                                        "size":  61112,
-                                       "sha256":  "500553c54efd61eb4b0864c04f0a11ff09a9622dc5828ea06e9ef91740fff04b"
+                                       "sha256":  "d15f2f8c0063374f967523d2dcf1ff4641a1d5f9d3d5ed6d7e44f245b84a1220"
                                    },
                         "icon":  {
                                      "path":  "deepwater/geforce-now/icon.png",
@@ -79,7 +79,7 @@
                         "tags":  "Streaming,PC",
                         "colors":  "6B3CF0,2A1673,0A0624",
                         "apps":  "deepwater",
-                        "minAppVersion":  50,
+                        "minAppVersion":  57,
                         "module":  {
                                        "path":  "deepwater/pc-streaming/module.sprx",
                                        "size":  21293,
@@ -110,7 +110,7 @@
                         "tags":  "Cloud,Xbox,Social",
                         "colors":  "1D9A1D,0E4D0E,041604",
                         "apps":  "deepwater",
-                        "minAppVersion":  50,
+                        "minAppVersion":  57,
                         "module":  {
                                        "path":  "deepwater/xbox/module.sprx",
                                        "size":  30819,
@@ -141,7 +141,7 @@
                         "tags":  "Streaming,Xbox",
                         "colors":  "1D9A1D,0E4D0E,041604",
                         "apps":  "deepwater",
-                        "minAppVersion":  50,
+                        "minAppVersion":  57,
                         "module":  {
                                        "path":  "deepwater/xbox-remote-play/module.sprx",
                                        "size":  15333,

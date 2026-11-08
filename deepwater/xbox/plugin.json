@@ -12,7 +12,7 @@
     "tags":  "Cloud,Xbox,Social",
     "colors":  "1D9A1D,0E4D0E,041604",
     "apps":  "deepwater",
-    "minAppVersion":  50,
+    "minAppVersion":  57,
     "module":  {
                    "path":  "deepwater/xbox/module.sprx",
                    "size":  30819,

@@ -12,7 +12,7 @@
     "tags":  "Social,Discord",
     "colors":  "5865F2,2B2F8F,0B0C24",
     "apps":  "deepwater",
-    "minAppVersion":  50,
+    "minAppVersion":  57,
     "module":  {
                    "path":  "deepwater/discord/module.sprx",
                    "size":  12785,

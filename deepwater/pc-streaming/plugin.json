@@ -12,7 +12,7 @@
     "tags":  "Streaming,PC",
     "colors":  "6B3CF0,2A1673,0A0624",
     "apps":  "deepwater",
-    "minAppVersion":  50,
+    "minAppVersion":  57,
     "module":  {
                    "path":  "deepwater/pc-streaming/module.sprx",
                    "size":  21293,

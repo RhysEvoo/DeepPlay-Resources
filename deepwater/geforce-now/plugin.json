@@ -2,8 +2,8 @@
     "id":  "geforce-now",
     "name":  "GeForce NOW",
     "publisher":  "DeepPlay",
-    "version":  "0.17",
-    "versionCode":  24,
+    "version":  "0.18",
+    "versionCode":  25,
     "api":  1,
     "apiMinor":  6,
     "requires":  "A GeForce NOW account (NVIDIA, or a partner such as ABYA)",
@@ -12,11 +12,11 @@
     "tags":  "Streaming,Cloud",
     "colors":  "76B900,2D4A00,0A0F02",
     "apps":  "deepwater",
-    "minAppVersion":  50,
+    "minAppVersion":  57,
     "module":  {
                    "path":  "deepwater/geforce-now/module.sprx",
                    "size":  61112,
-                   "sha256":  "500553c54efd61eb4b0864c04f0a11ff09a9622dc5828ea06e9ef91740fff04b"
+                   "sha256":  "d15f2f8c0063374f967523d2dcf1ff4641a1d5f9d3d5ed6d7e44f245b84a1220"
                },
     "icon":  {
                  "path":  "deepwater/geforce-now/icon.png",
