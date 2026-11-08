@@ -2,42 +2,289 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#05070d">
 <title>Project DeepWater - Discord</title>
 <style>
-  :root { color-scheme: dark; }
-  body { margin: 0; min-height: 100vh; display: grid; place-items: center; background: #0b0d14; color: #e8eaf2;
-         font: 17px/1.5 system-ui, -apple-system, "Segoe UI", sans-serif; }
-  main { max-width: 420px; padding: 32px 20px; text-align: center; }
-  h1 { font-size: 22px; font-weight: 600; margin: 0 0 12px; }
-  p { color: #a9afc3; margin: 0 0 16px; }
-  a.button { display: inline-block; margin-top: 8px; padding: 12px 22px; border-radius: 999px; background: #5865f2;
-             color: #fff; text-decoration: none; font-weight: 600; }
+  :root {
+    color-scheme: dark;
+    --ink: #f4f6fb;
+    --mist: rgba(244, 246, 251, 0.62);
+    --panel: rgba(18, 22, 34, 0.55);
+    --line: rgba(255, 255, 255, 0.10);
+    --accent: #5865f2;
+    --error: #c4103f;   /* ruby */
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; height: 100%; background: #05070d; color: var(--ink); overflow: hidden;
+               font-family: "SST", "Segoe UI", system-ui, -apple-system, Roboto, sans-serif; font-weight: 300; }
+  canvas { position: fixed; inset: 0; width: 100%; height: 100%; display: block; }
+  /* the PS5's spotlight on its dark stage, and a darkening toward the edges */
+  .stage { position: fixed; inset: 0; pointer-events: none;
+           background: radial-gradient(120% 80% at 50% 0%, rgba(255,255,255,0.07), transparent 60%),
+                       radial-gradient(140% 120% at 50% 110%, rgba(0,0,0,0.75), transparent 60%); }
+  main { position: relative; z-index: 1; min-height: 100%; display: flex; flex-direction: column; justify-content: flex-start;
+         padding: max(13vh, env(safe-area-inset-top)) 22px max(28px, env(safe-area-inset-bottom)); max-width: 560px; margin: 0 auto; }
+  .meta { display: flex; align-items: center; gap: 10px; font-size: 15px; color: var(--mist); letter-spacing: 0.02em; margin-bottom: 18px; }
+  .meta .bar { opacity: 0.5; }
+  h1 { font-size: clamp(30px, 8vw, 44px); font-weight: 300; line-height: 1.12; margin: 0 0 16px; letter-spacing: -0.01em; }
+  p { font-size: 17px; line-height: 1.5; color: var(--mist); margin: 0 0 26px; }
+  .panel { display: flex; align-items: center; gap: 14px; padding: 16px 18px; border-radius: 14px; background: var(--panel);
+           border: 1px solid var(--line); backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px); margin-bottom: 26px; }
+  .spinner { width: 22px; height: 22px; flex: none; border-radius: 50%; border: 2.5px solid rgba(255,255,255,0.18);
+             border-top-color: var(--ink); animation: spin 0.9s linear infinite; }
+  .mark { width: 22px; height: 22px; flex: none; border-radius: 50%; display: grid; place-items: center; font-weight: 600;
+          font-size: 14px; background: var(--error); color: #fff; }
+  .panel span { font-size: 15px; color: var(--ink); }
+  /* the PS5's focused button: white with dark text, and its halo */
+  .button { align-self: flex-start; display: inline-block; padding: 13px 30px; border-radius: 999px; background: #fff;
+            color: #0b0d14; text-decoration: none; font-weight: 500; font-size: 17px;
+            box-shadow: 0 0 0 3px rgba(255,255,255,0.18), 0 8px 30px rgba(0,0,0,0.4); }
+  .button[hidden] { display: none; }
+  .error h1 { color: #fff; }
+  @keyframes spin { to { transform: rotate(360deg); } }
+  @media (prefers-reduced-motion: reduce) { .spinner { animation-duration: 2.5s; } }
 </style>
 </head>
 <body>
-<main>
-  <h1 id="title">Linking Discord to your PS3...</h1>
+<canvas id="shapes"></canvas>
+<div class="stage"></div>
+<main id="page">
+  <div class="meta"><span>Project DeepWater</span><span class="bar">|</span><span>Discord</span></div>
+  <h1 id="title">Linking Discord to your PS3</h1>
   <p id="text">One moment.</p>
+  <div class="panel" id="panel"><div class="spinner" id="icon"></div><span id="status">Getting ready...</span></div>
   <a id="go" class="button" hidden>Send it to my PS3</a>
 </main>
 <script>
+// ---- the background: DeepPlay's Settings world - a dark stage, a pool of light, and the four PlayStation shapes
+// circling in metal 3D (as ui-metal.c draws them), with motion blur and depth of field. Red on an error ----
+var Shapes = (function () {
+  var canvas = document.getElementById('shapes'), g = canvas.getContext('2d');
+  var tint = [210, 216, 228], target = tint.slice();   // Settings grey metal; red on an error
+  var w = 0, h = 0, ratio = 1, shapes = [];
+  function size() {
+    ratio = Math.min(window.devicePixelRatio || 1, 2);
+    w = canvas.clientWidth; h = canvas.clientHeight;
+    canvas.width = Math.round(w * ratio); canvas.height = Math.round(h * ratio);
+  }
+  function rand(a, b) { return a + Math.random() * (b - a); }
+  function spinOf() { return (Math.random() < 0.5 ? -1 : 1) * rand(0.15, 0.6); }
+  // a ring of shapes, and a few loose ones drifting further off (kinds: 0 triangle, 1 circle, 2 cross, 3 square)
+  for (var i = 0; i < 12; i++) shapes.push({ kind: i % 4, ring: true, a: i / 12 * Math.PI * 2, r: rand(2.4, 3.2), y: rand(0.6, 2.2),
+                                             size: rand(0.7, 1.0), angle: [rand(0, 6.28), rand(0, 6.28), rand(0, 6.28)],
+                                             spin: [spinOf(), spinOf(), spinOf()], drift: rand(0, 6.28) });
+  for (var j = 0; j < 8; j++) shapes.push({ kind: j % 4, ring: false, x: rand(-7, 7), z: rand(4, 14), y: rand(0.4, 4),
+                                            size: rand(0.6, 1.1), angle: [rand(0, 6.28), rand(0, 6.28), rand(0, 6.28)],
+                                            spin: [spinOf(), spinOf(), spinOf()], drift: rand(0, 6.28), slide: rand(-0.15, 0.15) });
+
+  // ---- the shapes as metal 3D, as DeepPlay's ui-metal.c makes them: each outline thickened into a band and given
+  // depth (the cross, two bars), turned, put in perspective, shaded dark where it faces you and lit along its rims,
+  // with a hard shine where it turns to the light ----
+  var TAU = Math.PI * 2, EYE = 6;
+  // where the metal is drawn: a small canvas of its own per shape, blurred once onto the stage (blurring each face
+  // on its own would be far too slow on a phone)
+  var off = document.createElement("canvas"), pen = off.getContext("2d");
+  function norm(v) { var n = Math.hypot(v[0], v[1], v[2]); if (n > 0) { v[0] /= n; v[1] /= n; v[2] /= n; } return v; }
+  function band(mesh, pts, stroke, depth) {
+    var n = pts.length, outer = [], inner = [];
+    for (var i = 0; i < n; i++) {
+      var p = pts[i], a = pts[(i + n - 1) % n], b = pts[(i + 1) % n];
+      var d1x = p[0] - a[0], d1y = p[1] - a[1], d2x = b[0] - p[0], d2y = b[1] - p[1];
+      var l1 = Math.hypot(d1x, d1y), l2 = Math.hypot(d2x, d2y);
+      var n1x = d1y / l1, n1y = -d1x / l1, n2x = d2y / l2, n2y = -d2x / l2;
+      var mx = n1x + n2x, my = n1y + n2y, ml = Math.hypot(mx, my); mx /= ml; my /= ml;
+      var reach = stroke / 2 / (mx * n1x + my * n1y);
+      outer.push([p[0] + mx * reach, p[1] + my * reach]); inner.push([p[0] - mx * reach, p[1] - my * reach]);
+    }
+    var f = depth / 2, k = -depth / 2;
+    for (var q = 0; q < n; q++) {
+      var r = (q + 1) % n, oi = outer[q], oj = outer[r], ii = inner[q], ij = inner[r];
+      mesh.push([[oi[0], oi[1], f], [oj[0], oj[1], f], [ij[0], ij[1], f], [ii[0], ii[1], f]]);
+      mesh.push([[oi[0], oi[1], k], [ii[0], ii[1], k], [ij[0], ij[1], k], [oj[0], oj[1], k]]);
+      mesh.push([[oi[0], oi[1], f], [oi[0], oi[1], k], [oj[0], oj[1], k], [oj[0], oj[1], f]]);
+      mesh.push([[ii[0], ii[1], f], [ij[0], ij[1], f], [ij[0], ij[1], k], [ii[0], ii[1], k]]);
+    }
+  }
+  function box(mesh, bw, bh, angle, depth) {
+    var c = Math.cos(angle), s = Math.sin(angle), f = depth / 2, b = -depth / 2;
+    var k = [[-bw / 2, -bh / 2], [bw / 2, -bh / 2], [bw / 2, bh / 2], [-bw / 2, bh / 2]].map(function (p) {
+      return [p[0] * c - p[1] * s, p[0] * s + p[1] * c]; });
+    mesh.push([[k[0][0], k[0][1], f], [k[1][0], k[1][1], f], [k[2][0], k[2][1], f], [k[3][0], k[3][1], f]]);
+    mesh.push([[k[0][0], k[0][1], b], [k[3][0], k[3][1], b], [k[2][0], k[2][1], b], [k[1][0], k[1][1], b]]);
+    for (var i = 0; i < 4; i++) { var j = (i + 1) % 4;
+      mesh.push([[k[i][0], k[i][1], f], [k[i][0], k[i][1], b], [k[j][0], k[j][1], b], [k[j][0], k[j][1], f]]); }
+  }
+  var meshes = [0, 1, 2, 3].map(function (kind) {
+    var mesh = [], pts = [], i;
+    if (kind === 0) { for (i = 0; i < 3; i++) { var a = -TAU / 4 + (2 - i) * TAU / 3; pts.push([Math.cos(a) * 0.56, Math.sin(a) * 0.56]); }
+                      band(mesh, pts, 0.13, 0.12); }
+    else if (kind === 1) { for (i = 0; i < 16; i++) { var c = -i / 16 * TAU; pts.push([Math.cos(c) * 0.44, Math.sin(c) * 0.44]); }
+                           band(mesh, pts, 0.14, 0.12); }
+    else if (kind === 2) { box(mesh, 1.05, 0.14, TAU / 8, 0.12); box(mesh, 1.05, 0.14, -TAU / 8, 0.12); }
+    else band(mesh, [[-0.4, -0.4], [0.4, -0.4], [0.4, 0.4], [-0.4, 0.4]], 0.12, 0.12);
+    return mesh;
+  });
+  var light = norm([0.45, -0.55, 0.7]), half = norm([light[0], light[1], light[2] + 1]);
+  // one shape at (cx, cy), size across, turned by ax, ay, az, in the metal colour tint; returns its shine (0..1)
+  function metal(kind, cx, cy, size, ax, ay, az, alpha) {
+    var ca = Math.cos(ax), sa = Math.sin(ax), cb = Math.cos(ay), sb = Math.sin(ay), cc = Math.cos(az), sc = Math.sin(az);
+    var dark = tint.map(function (c) { return c * 0.065; }), shine = tint.map(function (c) { return c + (255 - c) * 0.82; });
+    var faces = [], best = 0;
+    meshes[kind].forEach(function (quad) {
+      var p = quad.map(function (m) {
+        var y1 = m[1] * ca - m[2] * sa, z1 = m[1] * sa + m[2] * ca;
+        var x2 = m[0] * cb + z1 * sb, z2 = -m[0] * sb + z1 * cb;
+        return [x2 * cc - y1 * sc, x2 * sc + y1 * cc, z2];
+      });
+      var u = [p[1][0] - p[0][0], p[1][1] - p[0][1], p[1][2] - p[0][2]], v = [p[3][0] - p[0][0], p[3][1] - p[0][1], p[3][2] - p[0][2]];
+      var n = norm([u[1] * v[2] - u[2] * v[1], u[2] * v[0] - u[0] * v[2], u[0] * v[1] - u[1] * v[0]]);
+      if (n[2] < 0) { n[0] = -n[0]; n[1] = -n[1]; n[2] = -n[2]; }
+      var lit = Math.max(0, n[0] * light[0] + n[1] * light[1] + n[2] * light[2]), edge = 1 - n[2];
+      var spec = Math.pow(Math.max(0, n[0] * half[0] + n[1] * half[1] + n[2] * half[2]), 48);
+      var k = Math.min(1, 0.03 + 0.35 * Math.pow(lit, 4) + 0.95 * edge * edge);
+      var col = [0, 1, 2].map(function (i) { return Math.min(255, dark[i] + (tint[i] - dark[i]) * k + (shine[i] - tint[i] * k) * spec); });
+      if (n[2] > 0.6 && spec > best) best = spec;
+      faces.push({ z: p[0][2] + p[1][2] + p[2][2] + p[3][2], col: col, pts: p.map(function (q) { var s = EYE / (EYE - q[2]);
+        return [cx + q[0] * size * s, cy + q[1] * size * s]; }) });
+    });
+    faces.sort(function (a, b) { return a.z - b.z; });   // far faces first
+    faces.forEach(function (f) {
+      pen.fillStyle = 'rgba(' + (f.col[0] | 0) + ',' + (f.col[1] | 0) + ',' + (f.col[2] | 0) + ',' + alpha.toFixed(3) + ')';
+      pen.beginPath(); pen.moveTo(f.pts[0][0], f.pts[0][1]);
+      for (var i = 1; i < 4; i++) pen.lineTo(f.pts[i][0], f.pts[i][1]);
+      pen.closePath(); pen.fill();
+    });
+    return best;
+  }
+  function colour(shade, alpha) {
+    return 'rgba(' + Math.round(Math.min(255, tint[0] * shade)) + ',' + Math.round(Math.min(255, tint[1] * shade)) + ',' +
+           Math.round(Math.min(255, tint[2] * shade)) + ',' + alpha.toFixed(3) + ')';
+  }
+  var last = 0;
+  function frame(now) {
+    var dt = last ? Math.min((now - last) / 1000, 0.05) : 0; last = now;
+    var t = now / 1000;
+    for (var k = 0; k < 3; k++) tint[k] += (target[k] - tint[k]) * Math.min(dt * 2.5, 1);
+    g.setTransform(ratio, 0, 0, ratio, 0, 0);
+
+    // the air and the floor, meeting at a horizon, with a haze along it
+    var horizon = h * (w < h ? 0.66 : 0.52);   // a phone held upright: the words above, the stage below
+    var sky = g.createLinearGradient(0, 0, 0, horizon);
+    sky.addColorStop(0, colour(0.03, 1)); sky.addColorStop(1, colour(0.09, 1));
+    g.fillStyle = sky; g.fillRect(0, 0, w, horizon);
+    var floor = g.createLinearGradient(0, horizon, 0, h);
+    floor.addColorStop(0, colour(0.08, 1)); floor.addColorStop(1, colour(0.015, 1));
+    g.fillStyle = floor; g.fillRect(0, horizon, w, h - horizon);
+    var haze = g.createLinearGradient(0, horizon - 90, 0, horizon + 90);
+    haze.addColorStop(0, colour(0.4, 0)); haze.addColorStop(0.5, colour(0.4, 0.10)); haze.addColorStop(1, colour(0.4, 0));
+    g.fillStyle = haze; g.fillRect(0, horizon - 90, w, 180);
+
+    // the camera, gliding slowly round the ring
+    var camX = Math.sin(t * 0.045) * 1.6, camY = 2.4 + Math.sin(t * 0.07) * 0.3, camZ = -7 + Math.sin(t * 0.031) * 1.0;
+    var focal = Math.min(w, h) * 1.05, focus = 7.5;
+    function project(x, y, z) {
+      var dz = z - camZ;
+      if (dz < 0.6) return null;
+      return { x: w / 2 + (x - camX) * focal / dz, y: horizon + (camY - y) * focal / dz, d: dz };
+    }
+
+    // the pool of light under the ring
+    var pool = project(0, 0, 0);
+    if (pool) {
+      var pr = 4 * focal / pool.d;
+      g.save(); g.translate(pool.x, pool.y); g.scale(1, 0.22);
+      var glow = g.createRadialGradient(0, 0, 0, 0, 0, pr);
+      glow.addColorStop(0, colour(1.1, 0.22)); glow.addColorStop(1, colour(1.1, 0));
+      g.fillStyle = glow; g.beginPath(); g.arc(0, 0, pr, 0, Math.PI * 2); g.fill(); g.restore();
+    }
+
+    // the shapes, far to near: each drawn a few times along where it has just been (motion blur), and out of focus
+    // the further it is from the camera's focus (depth of field)
+    function placed(s, at) {
+      var x, z;
+      if (s.ring) { var a = s.a + at * 0.12; x = Math.cos(a) * s.r; z = Math.sin(a) * s.r; }
+      else { x = ((s.x + s.slide * at + 8) % 16 + 16) % 16 - 8; z = s.z; }
+      return project(x, s.y + Math.sin(at * 0.5 + s.drift) * 0.25, z);
+    }
+    var items = shapes.map(function (s) { return { s: s, p: placed(s, t) }; }).filter(function (it) { return it.p; });
+    items.sort(function (a, b) { return b.p.d - a.p.d; });
+    var TRAIL = 4, SHUTTER = 0.12;   // sub-frames, and the seconds they span
+    items.forEach(function (it) {
+      var s = it.s, blur = Math.min(12, Math.abs(it.p.d - focus) * 1.3);
+      var fog = Math.max(0.2, Math.min(1, 1.5 - it.p.d * 0.06));
+      // where the shape and its trail are, so the small canvas only needs to be that big
+      var steps = [], left = Infinity, top = Infinity, right = -Infinity, bottom = -Infinity;
+      for (var n = TRAIL - 1; n >= 0; n--) {
+        var at = t - SHUTTER * n / (TRAIL - 1), p = n ? placed(s, at) : it.p;
+        if (!p) continue;
+        var reach = s.size * focal / p.d * 0.8;
+        left = Math.min(left, p.x - reach); right = Math.max(right, p.x + reach);
+        top = Math.min(top, p.y - reach); bottom = Math.max(bottom, p.y + reach);
+        steps.push({ n: n, at: at, p: p });
+      }
+      if (!steps.length || right < -50 || left > w + 50 || bottom < -50 || top > h + 50) return;
+      var pad = blur * 2 + 4;
+      left -= pad; top -= pad; right += pad; bottom += pad;
+      var bw = Math.ceil(right - left), bh = Math.ceil(bottom - top);
+      if (off.width < bw * ratio || off.height < bh * ratio) {
+        off.width = Math.max(off.width, Math.ceil(bw * ratio)); off.height = Math.max(off.height, Math.ceil(bh * ratio));
+      }
+      pen.setTransform(1, 0, 0, 1, 0, 0);
+      pen.clearRect(0, 0, Math.ceil(bw * ratio) + 2, Math.ceil(bh * ratio) + 2);
+      pen.setTransform(ratio, 0, 0, ratio, -left * ratio, -top * ratio);
+      var shone = 0;
+      steps.forEach(function (step) {   // oldest first, faintest; the shape itself last and whole
+        var share = step.n ? 0.22 * (TRAIL - step.n) / TRAIL : 1, at = step.at;
+        var shine = metal(s.kind, step.p.x, step.p.y, s.size * focal / step.p.d, s.angle[0] + s.spin[0] * at,
+                          s.angle[1] + s.spin[1] * at, s.angle[2] + s.spin[2] * at, fog * share);
+        if (!step.n) shone = shine;
+      });
+      // then onto the stage at once, out of focus as far as it is from the focus
+      g.filter = blur > 0.4 ? 'blur(' + blur.toFixed(1) + 'px)' : 'none';
+      g.drawImage(off, 0, 0, Math.ceil(bw * ratio), Math.ceil(bh * ratio), left, top, Math.ceil(bw * ratio) / ratio,
+                  Math.ceil(bh * ratio) / ratio);
+      g.filter = 'none';
+      if (shone > 0.5) {   // a glint where it turns to the light
+        var r = s.size * focal / it.p.d * 0.55, glint = g.createRadialGradient(it.p.x, it.p.y, 0, it.p.x, it.p.y, r);
+        glint.addColorStop(0, colour(1.6, 0.25 * fog * (shone - 0.5) / 0.5)); glint.addColorStop(1, colour(1.6, 0));
+        g.fillStyle = glint; g.fillRect(it.p.x - r, it.p.y - r, r * 2, r * 2);
+      }
+    });
+    g.filter = 'none';
+    requestAnimationFrame(frame);
+  }
+  window.addEventListener('resize', size);
+  size();
+  requestAnimationFrame(frame);
+  return { error: function () { target = [214, 18, 64]; tint = target.slice(); } };   // ruby, at once: the page opens on it
+})();
+
+// ---- the link ----
 // Project DeepWater's Discord link. Discord sends the phone here after sign-in, with the sign-in in the address
 // (#access_token=...&state=...). The state says where the PS3 is on the home network ("192.168.0.8:2261:nonce"), so
 // this page passes the sign-in straight on to the PS3, which checks the Beta Tester role itself. Nothing is stored
 // or sent anywhere else.
 (function () {
-  var title = document.getElementById('title'), text = document.getElementById('text'), go = document.getElementById('go');
-  function say(t, x) { title.textContent = t; text.textContent = x; }
+  var page = document.getElementById('page'), title = document.getElementById('title'), text = document.getElementById('text');
+  var status = document.getElementById('status'), icon = document.getElementById('icon'), go = document.getElementById('go');
+  function show(t, x, s) { title.textContent = t; text.textContent = x; status.textContent = s; }
+  function fail(t, x, s) {
+    show(t, x, s);
+    page.classList.add('error');
+    icon.className = 'mark'; icon.textContent = '!';
+    Shapes.error();
+  }
   var fields = new URLSearchParams(location.hash.slice(1));
   if (!fields.toString()) fields = new URLSearchParams(location.search.slice(1));   // an error comes in the query
-  var state = fields.get('state') || '';
-  var parts = state.split(':');
+  if (fields.get('preview') === 'ok') { show('Sending it to your PS3', 'Keep your phone on the same network as the PS3, then look at your TV.', 'Sending...'); return; }
+  var parts = (fields.get('state') || '').split(':');
   var ip = parts[0] || '', port = parts[1] || '', nonce = parts[2] || '';
   // only ever a PS3 on a home network: a private address and a plain port
   var privateIp = /^(10\.\d{1,3}\.\d{1,3}\.\d{1,3}|192\.168\.\d{1,3}\.\d{1,3}|172\.(1[6-9]|2\d|3[01])\.\d{1,3}\.\d{1,3})$/;
   if (!privateIp.test(ip) || !/^\d{2,5}$/.test(port) || !/^[A-Za-z0-9]{4,40}$/.test(nonce)) {
-    say('This link didn\'t come from a PS3', 'Scan the QR code on Project DeepWater\'s screen again.');
+    fail('This didn\'t come from a PS3', 'Open this page by scanning the QR code on Project DeepWater\'s screen.',
+         'Scan the code on your TV again.');
     return;
   }
   var query = new URLSearchParams({ state: nonce });
@@ -48,9 +295,14 @@
     query.set('error', fields.get('error') || 'unknown');
   }
   var target = 'http://' + ip + ':' + port + '/token?' + query.toString();
-  say('Sending it to your PS3...', 'Your phone needs to be on the same network as the PS3. Then look at your TV.');
+  if (fields.get('error')) {   // the PS3 still hears about it, so its screen can say so
+    fail('Discord wasn\'t linked', 'Discord didn\'t give permission. Look at your TV, then start Project DeepWater again to try once more.',
+         'Telling your PS3...');
+  } else {
+    show('Sending it to your PS3', 'Keep your phone on the same network as the PS3, then look at your TV.', 'Sending...');
+  }
   go.href = target;
-  go.hidden = false;   // if the phone doesn't go on by itself, this does it
+  setTimeout(function () { go.hidden = false; }, 2500);   // if the phone doesn't go on by itself, this does it
   location.replace(target);
 })();
 </script>
