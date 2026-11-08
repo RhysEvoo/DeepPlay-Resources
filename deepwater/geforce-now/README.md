@@ -4,7 +4,7 @@ Find any of the games GeForce NOW streams, add them to your library, and play th
 
 | | |
 | --- | --- |
-| Version | 0.18 |
+| Version | 0.19 |
 | Publisher | DeepPlay |
 | Needs | A GeForce NOW account (NVIDIA, or a partner such as ABYA) |
 | Kind | Streaming, Cloud |
