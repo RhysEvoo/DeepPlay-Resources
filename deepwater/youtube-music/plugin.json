@@ -1,0 +1,31 @@
+{
+    "id":  "youtube-music",
+    "name":  "YouTube Music",
+    "publisher":  "DeepPlay",
+    "version":  "0.1",
+    "versionCode":  1,
+    "api":  1,
+    "apiMinor":  8,
+    "requires":  "Project DeepWater 00.60 or newer",
+    "pitch":  "Listen to YouTube Music on your PS3, in the background while you browse.",
+    "description":  "Browse YouTube Music\u0027s home, new releases and charts, search for songs, albums, artists and playlists, and play them on your PS3. Music keeps playing in the background while you go round DeepPlay, with the Control Center\u0027s Music card to pause and skip, and stops when a game starts. Save songs, albums and playlists to your library on this PS3. No sign-in needed. Not made by or affiliated with Google or YouTube.",
+    "tags":  "Music,Media",
+    "colors":  "FF0033,5A0012,140005",
+    "apps":  "deepwater",
+    "minAppVersion":  60,
+    "module":  {
+                   "path":  "deepwater/youtube-music/module.sprx",
+                   "size":  26986,
+                   "sha256":  "ea2a8624f0a149a15e399c30fa88d47ec203a98cd144e77fb4dae0217b426876"
+               },
+    "icon":  {
+                 "path":  "deepwater/youtube-music/icon.png",
+                 "size":  10899,
+                 "sha256":  "2b3886af6cc620a1a9fb3507f0de739e8f9eee721f614320d8a96c369a7b9e99"
+             },
+    "background":  {
+                       "path":  "deepwater/youtube-music/background.jpg",
+                       "size":  22162,
+                       "sha256":  "db5ea4a4b0a64218492e17d0ad6d0557a0e33c595a224a366d9bb2761e2c154e"
+                   }
+}
