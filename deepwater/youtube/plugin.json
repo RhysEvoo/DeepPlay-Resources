@@ -1,0 +1,31 @@
+{
+    "id":  "youtube",
+    "name":  "YouTube",
+    "publisher":  "DeepPlay",
+    "version":  "0.1",
+    "versionCode":  1,
+    "api":  1,
+    "apiMinor":  10,
+    "requires":  "Project DeepWater 00.62 or newer",
+    "pitch":  "Watch YouTube on your PS3, in up to 1080p.",
+    "description":  "Search all of YouTube and watch videos on your PS3 in 720p or 1080p (the Streaming setting\u0027s resolution). Signed in with your Google account, Home shows YouTube\u0027s recommendations for you, Subscriptions shows the newest from your channels, and Playlists brings your playlists, liked videos and Watch later. Signed out, Home is made from what you watch. Open a channel to see its videos, save videos for later, and pick up where you left off from your watch history. Signing in here also signs in YouTube Music. Not made by or affiliated with Google or YouTube.",
+    "tags":  "Video,Media",
+    "colors":  "FF0033,5A0012,140005",
+    "apps":  "deepwater",
+    "minAppVersion":  62,
+    "module":  {
+                   "path":  "deepwater/youtube/module.sprx",
+                   "size":  39210,
+                   "sha256":  "ca73cde56c55a98a87583873e5904641c62762c977bef423d0c2c2bfb0d7b972"
+               },
+    "icon":  {
+                 "path":  "deepwater/youtube/icon.png",
+                 "size":  6145,
+                 "sha256":  "bec9095283c4002ff964e78ff0b8db2e8fa1d8984c3a52bf875e06673750cefb"
+             },
+    "background":  {
+                       "path":  "deepwater/youtube/background.jpg",
+                       "size":  20788,
+                       "sha256":  "3ed30d9c169e43208a2bda48b41c91ae0a08bd6bdd7488601481d6789618adb7"
+                   }
+}
