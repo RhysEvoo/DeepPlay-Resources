@@ -4,7 +4,7 @@ Shows DeepPlay as your activity on Discord, with the game you're playing, its bo
 
 | | |
 | --- | --- |
-| Version | 1.4 |
+| Version | 1.5 |
 | Publisher | DeepPlay |
 | Needs | A Discord account (or DeepPlay Companion on your PC) |
 | Kind | Social, Discord |
