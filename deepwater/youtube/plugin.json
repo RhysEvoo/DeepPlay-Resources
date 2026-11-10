@@ -2,8 +2,8 @@
     "id":  "youtube",
     "name":  "YouTube",
     "publisher":  "DeepPlay",
-    "version":  "0.1",
-    "versionCode":  1,
+    "version":  "0.2",
+    "versionCode":  2,
     "api":  1,
     "apiMinor":  10,
     "requires":  "Project DeepWater 00.62 or newer",
@@ -15,8 +15,8 @@
     "minAppVersion":  62,
     "module":  {
                    "path":  "deepwater/youtube/module.sprx",
-                   "size":  39210,
-                   "sha256":  "ca73cde56c55a98a87583873e5904641c62762c977bef423d0c2c2bfb0d7b972"
+                   "size":  39206,
+                   "sha256":  "430aea43db8466f270924c05a7a3e8ccceb5ba7d404e9dc02524eee29c9dba99"
                },
     "icon":  {
                  "path":  "deepwater/youtube/icon.png",

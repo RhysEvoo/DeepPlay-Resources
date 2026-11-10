@@ -4,7 +4,7 @@ Search all of YouTube and watch videos on your PS3 in 720p or 1080p (the Streami
 
 | | |
 | --- | --- |
-| Version | 0.1 |
+| Version | 0.2 |
 | Publisher | DeepPlay |
 | Needs | Project DeepWater 00.62 or newer |
 | Kind | Video, Media |
