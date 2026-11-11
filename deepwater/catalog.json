@@ -1,14 +1,14 @@
 {
     "catalog":  1,
     "channel":  "early",
-    "updated":  "2026-11-11T01:57:21Z",
+    "updated":  "2026-11-11T20:18:23Z",
     "plugins":  [
                     {
                         "id":  "discord",
                         "name":  "Discord Activity",
                         "publisher":  "DeepPlay",
-                        "version":  "1.7",
-                        "versionCode":  13,
+                        "version":  "1.9",
+                        "versionCode":  15,
                         "api":  1,
                         "apiMinor":  6,
                         "requires":  "A Discord account (or DeepPlay Companion on your PC)",
@@ -20,8 +20,8 @@
                         "minAppVersion":  57,
                         "module":  {
                                        "path":  "deepwater/discord/module.sprx",
-                                       "size":  24947,
-                                       "sha256":  "de2556fbc9960f49148cfc25087af631139061396f86e0fbe733f45809507122"
+                                       "size":  24994,
+                                       "sha256":  "01b81a6c08693791735895877d5f9357ad9fb2d41275b1b262fb71850c4682b7"
                                    },
                         "icon":  {
                                      "path":  "deepwater/discord/icon.png",
@@ -38,8 +38,8 @@
                         "id":  "geforce-now",
                         "name":  "GeForce NOW",
                         "publisher":  "DeepPlay",
-                        "version":  "0.21",
-                        "versionCode":  28,
+                        "version":  "0.23",
+                        "versionCode":  30,
                         "api":  1,
                         "apiMinor":  6,
                         "requires":  "A GeForce NOW account (NVIDIA, or a partner such as ABYA)",
@@ -51,8 +51,8 @@
                         "minAppVersion":  57,
                         "module":  {
                                        "path":  "deepwater/geforce-now/module.sprx",
-                                       "size":  66302,
-                                       "sha256":  "98e266ac617ffc3e693b98b3ad3246b9b84bce70484d292cca9cf19b739dc96b"
+                                       "size":  67455,
+                                       "sha256":  "c13ecce67a81413a5450e3dab658a09c723381d74edc709c042f02cdc3270797"
                                    },
                         "icon":  {
                                      "path":  "deepwater/geforce-now/icon.png",
@@ -193,8 +193,8 @@
                         "id":  "youtube-music",
                         "name":  "YouTube Music",
                         "publisher":  "DeepPlay",
-                        "version":  "0.7",
-                        "versionCode":  6,
+                        "version":  "0.8",
+                        "versionCode":  7,
                         "api":  1,
                         "apiMinor":  9,
                         "requires":  "Project DeepWater 00.61 or newer",
@@ -206,8 +206,8 @@
                         "minAppVersion":  61,
                         "module":  {
                                        "path":  "deepwater/youtube-music/module.sprx",
-                                       "size":  43942,
-                                       "sha256":  "2d69acb5703128dacd4322161df7ebd72a2e01221ed895f0109e8a3938f0f3ce"
+                                       "size":  43913,
+                                       "sha256":  "de80d55fb31ec80fcae400849b3ee7fe1109c8c51f9a4da598ada645fe192971"
                                    },
                         "icon":  {
                                      "path":  "deepwater/youtube-music/icon.png",
