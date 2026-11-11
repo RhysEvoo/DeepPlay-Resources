@@ -1,14 +1,14 @@
 {
     "catalog":  1,
     "channel":  "early",
-    "updated":  "2026-11-10T23:41:45Z",
+    "updated":  "2026-11-11T00:58:55Z",
     "plugins":  [
                     {
                         "id":  "discord",
                         "name":  "Discord Activity",
                         "publisher":  "DeepPlay",
-                        "version":  "1.6",
-                        "versionCode":  10,
+                        "version":  "1.7",
+                        "versionCode":  12,
                         "api":  1,
                         "apiMinor":  6,
                         "requires":  "A Discord account (or DeepPlay Companion on your PC)",
@@ -20,8 +20,8 @@
                         "minAppVersion":  57,
                         "module":  {
                                        "path":  "deepwater/discord/module.sprx",
-                                       "size":  24175,
-                                       "sha256":  "58dbbc8691c335595d4cbd088215cdb98a42c81f4288977cb859ef9627376a42"
+                                       "size":  24830,
+                                       "sha256":  "cee160c1510531c976b4539862ceec2bae6eef3e1d35455925e37ab505ab7752"
                                    },
                         "icon":  {
                                      "path":  "deepwater/discord/icon.png",
@@ -193,8 +193,8 @@
                         "id":  "youtube-music",
                         "name":  "YouTube Music",
                         "publisher":  "DeepPlay",
-                        "version":  "0.6",
-                        "versionCode":  5,
+                        "version":  "0.7",
+                        "versionCode":  6,
                         "api":  1,
                         "apiMinor":  9,
                         "requires":  "Project DeepWater 00.61 or newer",
@@ -206,8 +206,8 @@
                         "minAppVersion":  61,
                         "module":  {
                                        "path":  "deepwater/youtube-music/module.sprx",
-                                       "size":  41818,
-                                       "sha256":  "448cef30c82ea21da28e1d6bd0cb9c7a4000351ac2da090ab3938b75efb936b0"
+                                       "size":  43942,
+                                       "sha256":  "2d69acb5703128dacd4322161df7ebd72a2e01221ed895f0109e8a3938f0f3ce"
                                    },
                         "icon":  {
                                      "path":  "deepwater/youtube-music/icon.png",

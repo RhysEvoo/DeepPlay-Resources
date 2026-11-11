@@ -2,8 +2,8 @@
     "id":  "youtube-music",
     "name":  "YouTube Music",
     "publisher":  "DeepPlay",
-    "version":  "0.6",
-    "versionCode":  5,
+    "version":  "0.7",
+    "versionCode":  6,
     "api":  1,
     "apiMinor":  9,
     "requires":  "Project DeepWater 00.61 or newer",
@@ -15,8 +15,8 @@
     "minAppVersion":  61,
     "module":  {
                    "path":  "deepwater/youtube-music/module.sprx",
-                   "size":  41818,
-                   "sha256":  "448cef30c82ea21da28e1d6bd0cb9c7a4000351ac2da090ab3938b75efb936b0"
+                   "size":  43942,
+                   "sha256":  "2d69acb5703128dacd4322161df7ebd72a2e01221ed895f0109e8a3938f0f3ce"
                },
     "icon":  {
                  "path":  "deepwater/youtube-music/icon.png",
