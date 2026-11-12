@@ -2,8 +2,8 @@
     "id":  "discord",
     "name":  "Discord Activity",
     "publisher":  "DeepPlay",
-    "version":  "1.9",
-    "versionCode":  15,
+    "version":  "1.11",
+    "versionCode":  17,
     "api":  1,
     "apiMinor":  6,
     "requires":  "A Discord account (or DeepPlay Companion on your PC)",
@@ -11,12 +11,14 @@
     "description":  "Shows DeepPlay as your activity on Discord, with the game you\u0027re playing, its box art and how long you\u0027ve been playing: Xbox Cloud Gaming, GeForce NOW, Xbox Remote Play and PC Streaming. Sign in with your Discord account by QR code and it works straight from your PS3, no PC needed, or let DeepPlay Companion pass it to Discord on your PC. Turn it off any time.",
     "tags":  "Social,Discord",
     "colors":  "5865F2,2B2F8F,0B0C24",
+    "whatsNew":  "Choose what shows on Discord in Settings \u003e Plugins \u003e Discord Activity: Home and apps, YouTube Music, YouTube, Xbox Cloud games, GeForce NOW games, Remote Play and the console temperatures, each on or off (needs DeepPlay 00.70).\nNew key art behind its page in DeepHub.",
+    "updated":  "2026-11-12T23:27:10Z",
     "apps":  "deepwater",
     "minAppVersion":  57,
     "module":  {
                    "path":  "deepwater/discord/module.sprx",
-                   "size":  24994,
-                   "sha256":  "01b81a6c08693791735895877d5f9357ad9fb2d41275b1b262fb71850c4682b7"
+                   "size":  26261,
+                   "sha256":  "14bbc30abc30d8f209dac4d81d18d7496d5fc4d6ef6d1b9da1f2220804a263ea"
                },
     "icon":  {
                  "path":  "deepwater/discord/icon.png",
@@ -25,7 +27,7 @@
              },
     "background":  {
                        "path":  "deepwater/discord/background.jpg",
-                       "size":  32312,
-                       "sha256":  "d248e151f6078e4b5fb0cb13ce42e6f323481dab2b306fd6dd2cef504d72e8e1"
+                       "size":  35304,
+                       "sha256":  "6bc575473bd89cab0089eee5b098e9a227ea3ffc0f4770153e1d08b5f62aa9c8"
                    }
 }

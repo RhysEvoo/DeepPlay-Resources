@@ -4,9 +4,9 @@ Sign in with your Google account to bring your YouTube playlists and liked video
 
 | | |
 | --- | --- |
-| Version | 0.8 |
+| Version | 0.10 |
 | Publisher | DeepPlay |
 | Needs | Project DeepWater 00.61 or newer |
 | Kind | Music, Media |
 
-Install it on the PS3 from DeepPlay Plugins. These files are made by `publish-plugin.ps1` in the DeepPlay source.
+Install it on the PS3 from DeepHub, DeepPlay's app store. These files are made by `publish-plugin.ps1` in the DeepPlay source.

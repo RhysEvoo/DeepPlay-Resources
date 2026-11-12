@@ -4,9 +4,9 @@ Shows DeepPlay as your activity on Discord, with the game you're playing, its bo
 
 | | |
 | --- | --- |
-| Version | 1.9 |
+| Version | 1.11 |
 | Publisher | DeepPlay |
 | Needs | A Discord account (or DeepPlay Companion on your PC) |
 | Kind | Social, Discord |
 
-Install it on the PS3 from DeepPlay Plugins. These files are made by `publish-plugin.ps1` in the DeepPlay source.
+Install it on the PS3 from DeepHub, DeepPlay's app store. These files are made by `publish-plugin.ps1` in the DeepPlay source.

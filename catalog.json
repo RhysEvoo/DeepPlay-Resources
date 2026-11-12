@@ -1,7 +1,7 @@
 {
     "catalog":  1,
     "channel":  "public",
-    "updated":  "2026-11-07T21:13:18Z",
+    "updated":  "2026-11-12T23:08:09Z",
     "plugins":  [
                     {
                         "id":  "pc-streaming",
@@ -69,8 +69,8 @@
                         "id":  "xbox-remote-play",
                         "name":  "Xbox Remote Play",
                         "publisher":  "DeepPlay",
-                        "version":  "1.4",
-                        "versionCode":  5,
+                        "version":  "1.5",
+                        "versionCode":  6,
                         "api":  1,
                         "apiMinor":  6,
                         "requires":  "An Xbox on the same network, with remote features on",
@@ -78,22 +78,24 @@
                         "description":  "Stream your Xbox Series X|S or Xbox One straight to your PS3. Wake your console from the couch, pick up where you left off and play with your PS3 controller, all over your own network.",
                         "tags":  "Streaming,Xbox",
                         "colors":  "1D9A1D,0E4D0E,041604",
+                        "whatsNew":  "Its own Remote Play icon, and the Xbox Series X behind its page in DeepHub.",
+                        "updated":  "2026-11-12T23:08:03Z",
                         "apps":  "deepplay",
                         "minAppVersion":  5,
                         "module":  {
                                        "path":  "xbox-remote-play/module.sprx",
-                                       "size":  15333,
-                                       "sha256":  "9b9fc4d614d5d521735a5454183d16c58b3dc1e57484c03afae1c8a1caa5837e"
+                                       "size":  15346,
+                                       "sha256":  "fbcddb2d317956b536dac2e382757cdc9477de9646fbec90c4e76976fd9c4a49"
                                    },
                         "icon":  {
                                      "path":  "xbox-remote-play/icon.png",
-                                     "size":  10760,
-                                     "sha256":  "c20a5a4f55235bafde99e7cf0d0e08aecb603e8d01e282f6670f3a8b270d4ade"
+                                     "size":  25171,
+                                     "sha256":  "c75d6c5f085169402121ecde10172f310cbe7175ff35606d3a885a39933a7d43"
                                  },
                         "background":  {
                                            "path":  "xbox-remote-play/background.jpg",
-                                           "size":  60799,
-                                           "sha256":  "b6192eb7896fedee2d2375b4be090d74f16c78c9137926cf231071d6062c4499"
+                                           "size":  43017,
+                                           "sha256":  "374a3cb165ad62b0a8340b31ed30058a002e1151e0705bcf77486122403b4d83"
                                        }
                     }
                 ]

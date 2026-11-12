@@ -1,14 +1,14 @@
 {
     "catalog":  1,
     "channel":  "early",
-    "updated":  "2026-11-11T20:18:23Z",
+    "updated":  "2026-11-12T23:27:10Z",
     "plugins":  [
                     {
                         "id":  "discord",
                         "name":  "Discord Activity",
                         "publisher":  "DeepPlay",
-                        "version":  "1.9",
-                        "versionCode":  15,
+                        "version":  "1.11",
+                        "versionCode":  17,
                         "api":  1,
                         "apiMinor":  6,
                         "requires":  "A Discord account (or DeepPlay Companion on your PC)",
@@ -16,12 +16,14 @@
                         "description":  "Shows DeepPlay as your activity on Discord, with the game you\u0027re playing, its box art and how long you\u0027ve been playing: Xbox Cloud Gaming, GeForce NOW, Xbox Remote Play and PC Streaming. Sign in with your Discord account by QR code and it works straight from your PS3, no PC needed, or let DeepPlay Companion pass it to Discord on your PC. Turn it off any time.",
                         "tags":  "Social,Discord",
                         "colors":  "5865F2,2B2F8F,0B0C24",
+                        "whatsNew":  "Choose what shows on Discord in Settings \u003e Plugins \u003e Discord Activity: Home and apps, YouTube Music, YouTube, Xbox Cloud games, GeForce NOW games, Remote Play and the console temperatures, each on or off (needs DeepPlay 00.70).\nNew key art behind its page in DeepHub.",
+                        "updated":  "2026-11-12T23:27:10Z",
                         "apps":  "deepwater",
                         "minAppVersion":  57,
                         "module":  {
                                        "path":  "deepwater/discord/module.sprx",
-                                       "size":  24994,
-                                       "sha256":  "01b81a6c08693791735895877d5f9357ad9fb2d41275b1b262fb71850c4682b7"
+                                       "size":  26261,
+                                       "sha256":  "14bbc30abc30d8f209dac4d81d18d7496d5fc4d6ef6d1b9da1f2220804a263ea"
                                    },
                         "icon":  {
                                      "path":  "deepwater/discord/icon.png",
@@ -30,16 +32,16 @@
                                  },
                         "background":  {
                                            "path":  "deepwater/discord/background.jpg",
-                                           "size":  32312,
-                                           "sha256":  "d248e151f6078e4b5fb0cb13ce42e6f323481dab2b306fd6dd2cef504d72e8e1"
+                                           "size":  35304,
+                                           "sha256":  "6bc575473bd89cab0089eee5b098e9a227ea3ffc0f4770153e1d08b5f62aa9c8"
                                        }
                     },
                     {
                         "id":  "geforce-now",
                         "name":  "GeForce NOW",
                         "publisher":  "DeepPlay",
-                        "version":  "0.23",
-                        "versionCode":  30,
+                        "version":  "0.24",
+                        "versionCode":  31,
                         "api":  1,
                         "apiMinor":  6,
                         "requires":  "A GeForce NOW account (NVIDIA, or a partner such as ABYA)",
@@ -51,8 +53,8 @@
                         "minAppVersion":  57,
                         "module":  {
                                        "path":  "deepwater/geforce-now/module.sprx",
-                                       "size":  67455,
-                                       "sha256":  "c13ecce67a81413a5450e3dab658a09c723381d74edc709c042f02cdc3270797"
+                                       "size":  68406,
+                                       "sha256":  "6f43305b53a13d2d33eb3fcddd9ae8e473132184eb1866afb79e90d81986bacc"
                                    },
                         "icon":  {
                                      "path":  "deepwater/geforce-now/icon.png",
@@ -63,7 +65,9 @@
                                            "path":  "deepwater/geforce-now/background.jpg",
                                            "size":  53650,
                                            "sha256":  "be2227d1b5a4a52d7a9c63b7278775e3810123109c78dd96b2c2beea7080b719"
-                                       }
+                                       },
+                        "whatsNew":  "Pick the server region your games stream from, in Settings \u003e Plugins \u003e GeForce NOW (needs DeepPlay 00.70).",
+                        "updated":  "2026-11-12T22:20:58Z"
                     },
                     {
                         "id":  "pc-streaming",
@@ -131,8 +135,8 @@
                         "id":  "xbox-remote-play",
                         "name":  "Xbox Remote Play",
                         "publisher":  "DeepPlay",
-                        "version":  "1.7",
-                        "versionCode":  9,
+                        "version":  "1.8",
+                        "versionCode":  10,
                         "api":  1,
                         "apiMinor":  6,
                         "requires":  "An Xbox on the same network, with remote features on",
@@ -140,30 +144,32 @@
                         "description":  "Stream your Xbox Series X|S or Xbox One straight to your PS3. Wake your console from the couch, pick up where you left off and play with your PS3 controller, all over your own network.",
                         "tags":  "Streaming,Xbox",
                         "colors":  "1D9A1D,0E4D0E,041604",
+                        "whatsNew":  "Its own Remote Play icon, and the Xbox Series X behind its page in DeepHub.",
+                        "updated":  "2026-11-12T23:08:08Z",
                         "apps":  "deepwater",
                         "minAppVersion":  57,
                         "module":  {
                                        "path":  "deepwater/xbox-remote-play/module.sprx",
-                                       "size":  15333,
-                                       "sha256":  "bff59ca7cc68b5c213f43f7180ea695f379e2a4572231154546adf3725b1c407"
+                                       "size":  15346,
+                                       "sha256":  "e4c758ab87dfac620467361e54aa6388e613994d08d993a81ee1e6e51be2727c"
                                    },
                         "icon":  {
                                      "path":  "deepwater/xbox-remote-play/icon.png",
-                                     "size":  10760,
-                                     "sha256":  "c20a5a4f55235bafde99e7cf0d0e08aecb603e8d01e282f6670f3a8b270d4ade"
+                                     "size":  25171,
+                                     "sha256":  "c75d6c5f085169402121ecde10172f310cbe7175ff35606d3a885a39933a7d43"
                                  },
                         "background":  {
                                            "path":  "deepwater/xbox-remote-play/background.jpg",
-                                           "size":  60799,
-                                           "sha256":  "b6192eb7896fedee2d2375b4be090d74f16c78c9137926cf231071d6062c4499"
+                                           "size":  43017,
+                                           "sha256":  "374a3cb165ad62b0a8340b31ed30058a002e1151e0705bcf77486122403b4d83"
                                        }
                     },
                     {
                         "id":  "youtube",
                         "name":  "YouTube",
                         "publisher":  "DeepPlay",
-                        "version":  "0.2",
-                        "versionCode":  2,
+                        "version":  "0.3",
+                        "versionCode":  3,
                         "api":  1,
                         "apiMinor":  10,
                         "requires":  "Project DeepWater 00.62 or newer",
@@ -171,12 +177,14 @@
                         "description":  "Search all of YouTube and watch videos on your PS3 in 720p or 1080p (the Streaming setting\u0027s resolution). Signed in with your Google account, Home shows YouTube\u0027s recommendations for you, Subscriptions shows the newest from your channels, and Playlists brings your playlists, liked videos and Watch later. Signed out, Home is made from what you watch. Open a channel to see its videos, save videos for later, and pick up where you left off from your watch history. Signing in here also signs in YouTube Music. Not made by or affiliated with Google or YouTube.",
                         "tags":  "Video,Media",
                         "colors":  "FF0033,5A0012,140005",
+                        "whatsNew":  "New key art behind its page in DeepHub.",
+                        "updated":  "2026-11-12T23:07:22Z",
                         "apps":  "deepwater",
                         "minAppVersion":  62,
                         "module":  {
                                        "path":  "deepwater/youtube/module.sprx",
-                                       "size":  39206,
-                                       "sha256":  "430aea43db8466f270924c05a7a3e8ccceb5ba7d404e9dc02524eee29c9dba99"
+                                       "size":  41212,
+                                       "sha256":  "f41d61a4d951ee24d4011ac983398389d9f20ec184d790ff2723a7c48eb5a671"
                                    },
                         "icon":  {
                                      "path":  "deepwater/youtube/icon.png",
@@ -185,16 +193,16 @@
                                  },
                         "background":  {
                                            "path":  "deepwater/youtube/background.jpg",
-                                           "size":  20788,
-                                           "sha256":  "3ed30d9c169e43208a2bda48b41c91ae0a08bd6bdd7488601481d6789618adb7"
+                                           "size":  40339,
+                                           "sha256":  "b9068d7f852528571d5436f5058bb12d46e9d95b069825c95a1b82deba935b4e"
                                        }
                     },
                     {
                         "id":  "youtube-music",
                         "name":  "YouTube Music",
                         "publisher":  "DeepPlay",
-                        "version":  "0.8",
-                        "versionCode":  7,
+                        "version":  "0.10",
+                        "versionCode":  9,
                         "api":  1,
                         "apiMinor":  9,
                         "requires":  "Project DeepWater 00.61 or newer",
@@ -202,12 +210,14 @@
                         "description":  "Sign in with your Google account to bring your YouTube playlists and liked videos. Browse YouTube Music\u0027s home, new releases and charts, search for songs, albums, artists and playlists, and play them on your PS3. Music keeps playing in the background while you go round DeepPlay, with the Control Center\u0027s Music card to pause and skip, and stops when a game starts. Save songs, albums and playlists to your library on this PS3. Signed out, everything but your own playlists works. Not made by or affiliated with Google or YouTube.",
                         "tags":  "Music,Media",
                         "colors":  "FF0033,5A0012,140005",
+                        "whatsNew":  "When YouTube asks \"Sign in to confirm you\u0027re not a bot\", it tries once more with a new visitor id.\nAfter three songs in a row won\u0027t play, it stops and says why instead of asking for the whole queue.\nNew key art behind its page in DeepHub.",
+                        "updated":  "2026-11-12T23:07:00Z",
                         "apps":  "deepwater",
                         "minAppVersion":  61,
                         "module":  {
                                        "path":  "deepwater/youtube-music/module.sprx",
-                                       "size":  43913,
-                                       "sha256":  "de80d55fb31ec80fcae400849b3ee7fe1109c8c51f9a4da598ada645fe192971"
+                                       "size":  44019,
+                                       "sha256":  "c4564465f4eb13fd606c01edc64cb16e4cf4e3ef84df5d45a8c3a6580cbf5b51"
                                    },
                         "icon":  {
                                      "path":  "deepwater/youtube-music/icon.png",
@@ -216,8 +226,8 @@
                                  },
                         "background":  {
                                            "path":  "deepwater/youtube-music/background.jpg",
-                                           "size":  22162,
-                                           "sha256":  "db5ea4a4b0a64218492e17d0ad6d0557a0e33c595a224a366d9bb2761e2c154e"
+                                           "size":  47976,
+                                           "sha256":  "7640a0a7871ce73ac44468ccf355eda1d4e515616927422f54cc86d97f64b4ca"
                                        }
                     }
                 ]

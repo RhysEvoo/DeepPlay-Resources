@@ -4,9 +4,9 @@ Search all of YouTube and watch videos on your PS3 in 720p or 1080p (the Streami
 
 | | |
 | --- | --- |
-| Version | 0.2 |
+| Version | 0.3 |
 | Publisher | DeepPlay |
 | Needs | Project DeepWater 00.62 or newer |
 | Kind | Video, Media |
 
-Install it on the PS3 from DeepPlay Plugins. These files are made by `publish-plugin.ps1` in the DeepPlay source.
+Install it on the PS3 from DeepHub, DeepPlay's app store. These files are made by `publish-plugin.ps1` in the DeepPlay source.

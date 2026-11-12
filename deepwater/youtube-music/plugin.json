@@ -2,8 +2,8 @@
     "id":  "youtube-music",
     "name":  "YouTube Music",
     "publisher":  "DeepPlay",
-    "version":  "0.8",
-    "versionCode":  7,
+    "version":  "0.10",
+    "versionCode":  9,
     "api":  1,
     "apiMinor":  9,
     "requires":  "Project DeepWater 00.61 or newer",
@@ -11,12 +11,14 @@
     "description":  "Sign in with your Google account to bring your YouTube playlists and liked videos. Browse YouTube Music\u0027s home, new releases and charts, search for songs, albums, artists and playlists, and play them on your PS3. Music keeps playing in the background while you go round DeepPlay, with the Control Center\u0027s Music card to pause and skip, and stops when a game starts. Save songs, albums and playlists to your library on this PS3. Signed out, everything but your own playlists works. Not made by or affiliated with Google or YouTube.",
     "tags":  "Music,Media",
     "colors":  "FF0033,5A0012,140005",
+    "whatsNew":  "When YouTube asks \"Sign in to confirm you\u0027re not a bot\", it tries once more with a new visitor id.\nAfter three songs in a row won\u0027t play, it stops and says why instead of asking for the whole queue.\nNew key art behind its page in DeepHub.",
+    "updated":  "2026-11-12T23:07:00Z",
     "apps":  "deepwater",
     "minAppVersion":  61,
     "module":  {
                    "path":  "deepwater/youtube-music/module.sprx",
-                   "size":  43913,
-                   "sha256":  "de80d55fb31ec80fcae400849b3ee7fe1109c8c51f9a4da598ada645fe192971"
+                   "size":  44019,
+                   "sha256":  "c4564465f4eb13fd606c01edc64cb16e4cf4e3ef84df5d45a8c3a6580cbf5b51"
                },
     "icon":  {
                  "path":  "deepwater/youtube-music/icon.png",
@@ -25,7 +27,7 @@
              },
     "background":  {
                        "path":  "deepwater/youtube-music/background.jpg",
-                       "size":  22162,
-                       "sha256":  "db5ea4a4b0a64218492e17d0ad6d0557a0e33c595a224a366d9bb2761e2c154e"
+                       "size":  47976,
+                       "sha256":  "7640a0a7871ce73ac44468ccf355eda1d4e515616927422f54cc86d97f64b4ca"
                    }
 }
