@@ -4,9 +4,9 @@ Stream games and your desktop from a Windows PC running DeepPlay Companion. Use 
 
 | | |
 | --- | --- |
-| Version | 1.4 |
+| Version | 1.7 |
 | Publisher | DeepPlay |
 | Needs | DeepPlay Companion on your Windows PC |
 | Kind | Streaming, PC |
 
-Install it on the PS3 from DeepPlay Plugins. These files are made by `publish-plugin.ps1` in the DeepPlay source.
+Install it on the PS3 from DeepHub, DeepPlay's app store. These files are made by `publish-plugin.ps1` in the DeepPlay source.

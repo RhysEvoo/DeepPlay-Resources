@@ -2,8 +2,8 @@
     "id":  "xbox",
     "name":  "Xbox",
     "publisher":  "DeepPlay",
-    "version":  "0.3",
-    "versionCode":  4,
+    "version":  "0.6",
+    "versionCode":  7,
     "api":  1,
     "apiMinor":  6,
     "requires":  "A Microsoft account, linked to your DeepPlay user",
@@ -11,12 +11,14 @@
     "description":  "Browse the games you can stream with Xbox Cloud Gaming and add them to your library, play them, see your Gamerscore and membership, and send and receive messages with your Xbox friends, all on your PS3. Link a Microsoft account to your DeepPlay user to start. Not made by or affiliated with Microsoft.",
     "tags":  "Cloud,Xbox,Social",
     "colors":  "1D9A1D,0E4D0E,041604",
+    "whatsNew":  "",
+    "updated":  "2026-11-13T01:59:25Z",
     "apps":  "deepplay",
     "minAppVersion":  5,
     "module":  {
                    "path":  "xbox/module.sprx",
-                   "size":  30819,
-                   "sha256":  "341e9456e7d484f4ed67cfe1c4e3737c0fdb9b89e4ed8222b4682f3e1d498d59"
+                   "size":  30885,
+                   "sha256":  "a57b14d73ecaa6c45675ad1598362b5fbc3efb352b6e5b700aa2d80c3359b996"
                },
     "icon":  {
                  "path":  "xbox/icon.png",
@@ -25,7 +27,7 @@
              },
     "background":  {
                        "path":  "xbox/background.jpg",
-                       "size":  60799,
-                       "sha256":  "b6192eb7896fedee2d2375b4be090d74f16c78c9137926cf231071d6062c4499"
+                       "size":  257450,
+                       "sha256":  "a7bf1ad44dbe0eb3022232bce7e8984f897cd2d079f9c143e618968d123d32a2"
                    }
 }

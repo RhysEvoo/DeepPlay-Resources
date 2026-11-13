@@ -4,9 +4,9 @@ Find any of the games GeForce NOW streams, add them to your library, and play th
 
 | | |
 | --- | --- |
-| Version | 0.24 |
+| Version | 0.26 |
 | Publisher | DeepPlay |
 | Needs | A GeForce NOW account (NVIDIA, or a partner such as ABYA) |
 | Kind | Streaming, Cloud |
 
-Install it on the PS3 from DeepPlay Plugins. These files are made by `publish-plugin.ps1` in the DeepPlay source.
+Install it on the PS3 from DeepHub, DeepPlay's app store. These files are made by `publish-plugin.ps1` in the DeepPlay source.

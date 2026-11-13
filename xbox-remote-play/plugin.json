@@ -2,8 +2,8 @@
     "id":  "xbox-remote-play",
     "name":  "Xbox Remote Play",
     "publisher":  "DeepPlay",
-    "version":  "1.5",
-    "versionCode":  6,
+    "version":  "1.7",
+    "versionCode":  8,
     "api":  1,
     "apiMinor":  6,
     "requires":  "An Xbox on the same network, with remote features on",
@@ -12,13 +12,13 @@
     "tags":  "Streaming,Xbox",
     "colors":  "1D9A1D,0E4D0E,041604",
     "whatsNew":  "Its own Remote Play icon, and the Xbox Series X behind its page in DeepHub.",
-    "updated":  "2026-11-12T23:08:03Z",
+    "updated":  "2026-11-13T01:56:37Z",
     "apps":  "deepplay",
     "minAppVersion":  5,
     "module":  {
                    "path":  "xbox-remote-play/module.sprx",
                    "size":  15346,
-                   "sha256":  "fbcddb2d317956b536dac2e382757cdc9477de9646fbec90c4e76976fd9c4a49"
+                   "sha256":  "54d745106a391680506d9f3f44c660e74489085b194d6c4722ee3a6af5cee1f9"
                },
     "icon":  {
                  "path":  "xbox-remote-play/icon.png",

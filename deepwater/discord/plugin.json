@@ -2,8 +2,8 @@
     "id":  "discord",
     "name":  "Discord Activity",
     "publisher":  "DeepPlay",
-    "version":  "1.11",
-    "versionCode":  17,
+    "version":  "1.13",
+    "versionCode":  19,
     "api":  1,
     "apiMinor":  6,
     "requires":  "A Discord account (or DeepPlay Companion on your PC)",
@@ -12,13 +12,13 @@
     "tags":  "Social,Discord",
     "colors":  "5865F2,2B2F8F,0B0C24",
     "whatsNew":  "Choose what shows on Discord in Settings \u003e Plugins \u003e Discord Activity: Home and apps, YouTube Music, YouTube, Xbox Cloud games, GeForce NOW games, Remote Play and the console temperatures, each on or off (needs DeepPlay 00.70).\nNew key art behind its page in DeepHub.",
-    "updated":  "2026-11-12T23:27:10Z",
+    "updated":  "2026-11-13T01:56:34Z",
     "apps":  "deepwater",
     "minAppVersion":  57,
     "module":  {
                    "path":  "deepwater/discord/module.sprx",
                    "size":  26261,
-                   "sha256":  "14bbc30abc30d8f209dac4d81d18d7496d5fc4d6ef6d1b9da1f2220804a263ea"
+                   "sha256":  "2ee194f43eeaf078c6c061e4e48cb6e80f30839124d5868e4851ea5029331da5"
                },
     "icon":  {
                  "path":  "deepwater/discord/icon.png",

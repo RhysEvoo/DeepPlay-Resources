@@ -2,8 +2,8 @@
     "id":  "youtube-music",
     "name":  "YouTube Music",
     "publisher":  "DeepPlay",
-    "version":  "0.10",
-    "versionCode":  9,
+    "version":  "0.12",
+    "versionCode":  11,
     "api":  1,
     "apiMinor":  9,
     "requires":  "Project DeepWater 00.61 or newer",
@@ -12,13 +12,13 @@
     "tags":  "Music,Media",
     "colors":  "FF0033,5A0012,140005",
     "whatsNew":  "When YouTube asks \"Sign in to confirm you\u0027re not a bot\", it tries once more with a new visitor id.\nAfter three songs in a row won\u0027t play, it stops and says why instead of asking for the whole queue.\nNew key art behind its page in DeepHub.",
-    "updated":  "2026-11-12T23:07:00Z",
+    "updated":  "2026-11-13T01:56:27Z",
     "apps":  "deepwater",
     "minAppVersion":  61,
     "module":  {
                    "path":  "deepwater/youtube-music/module.sprx",
-                   "size":  44019,
-                   "sha256":  "c4564465f4eb13fd606c01edc64cb16e4cf4e3ef84df5d45a8c3a6580cbf5b51"
+                   "size":  44035,
+                   "sha256":  "98fcbb72826d23efebdc1158760bc624aa06b7332f4c8f53b24137c7cc852100"
                },
     "icon":  {
                  "path":  "deepwater/youtube-music/icon.png",

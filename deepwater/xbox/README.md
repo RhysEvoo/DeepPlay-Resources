@@ -4,9 +4,9 @@ Browse the games you can stream with Xbox Cloud Gaming and add them to your libr
 
 | | |
 | --- | --- |
-| Version | 0.4 |
+| Version | 0.7 |
 | Publisher | DeepPlay |
 | Needs | A Microsoft account, linked to your DeepPlay user |
 | Kind | Cloud, Xbox, Social |
 
-Install it on the PS3 from DeepPlay Plugins. These files are made by `publish-plugin.ps1` in the DeepPlay source.
+Install it on the PS3 from DeepHub, DeepPlay's app store. These files are made by `publish-plugin.ps1` in the DeepPlay source.

@@ -1,33 +1,33 @@
 {
-    "id": "geforce-now",
-    "name": "GeForce NOW",
-    "publisher": "DeepPlay",
-    "version": "0.24",
-    "versionCode": 31,
-    "api": 1,
-    "apiMinor": 6,
-    "requires": "A GeForce NOW account (NVIDIA, or a partner such as ABYA)",
-    "pitch": "Play your GeForce NOW games on your PS3.",
-    "description": "Find any of the games GeForce NOW streams, add them to your library, and play them on your PS3. Sign in with your NVIDIA account, or your ABYA or other partner account, and link Steam, Epic and other stores from the Account tab. Not made by or affiliated with NVIDIA.",
-    "tags": "Streaming,Cloud",
-    "colors": "76B900,2D4A00,0A0F02",
-    "apps": "deepwater",
-    "minAppVersion": 57,
-    "module": {
-        "path": "deepwater/geforce-now/module.sprx",
-        "size": 68406,
-        "sha256": "6f43305b53a13d2d33eb3fcddd9ae8e473132184eb1866afb79e90d81986bacc"
-    },
-    "icon": {
-        "path": "deepwater/geforce-now/icon.png",
-        "size": 14940,
-        "sha256": "bffb75a4653e720a678e650bb76dc4673c254eae7a3017e12de63279d4328747"
-    },
-    "background": {
-        "path": "deepwater/geforce-now/background.jpg",
-        "size": 53650,
-        "sha256": "be2227d1b5a4a52d7a9c63b7278775e3810123109c78dd96b2c2beea7080b719"
-    },
-    "whatsNew": "Pick the server region your games stream from, in Settings > Plugins > GeForce NOW (needs DeepPlay 00.70).",
-    "updated": "2026-11-12T22:20:58Z"
+    "id":  "geforce-now",
+    "name":  "GeForce NOW",
+    "publisher":  "DeepPlay",
+    "version":  "0.26",
+    "versionCode":  33,
+    "api":  1,
+    "apiMinor":  6,
+    "requires":  "A GeForce NOW account (NVIDIA, or a partner such as ABYA)",
+    "pitch":  "Play your GeForce NOW games on your PS3.",
+    "description":  "Find any of the games GeForce NOW streams, add them to your library, and play them on your PS3. Sign in with your NVIDIA account, or your ABYA or other partner account, and link Steam, Epic and other stores from the Account tab. Not made by or affiliated with NVIDIA.",
+    "tags":  "Streaming,Cloud",
+    "colors":  "76B900,2D4A00,0A0F02",
+    "whatsNew":  "Pick the server region your games stream from, in Settings \u003e Plugins \u003e GeForce NOW (needs DeepPlay 00.70).",
+    "updated":  "2026-11-13T01:56:32Z",
+    "apps":  "deepwater",
+    "minAppVersion":  57,
+    "module":  {
+                   "path":  "deepwater/geforce-now/module.sprx",
+                   "size":  68378,
+                   "sha256":  "0fb66b608341da21e07ac88c2f9a76483f069dbd16f56ca3e37fa08f38550d73"
+               },
+    "icon":  {
+                 "path":  "deepwater/geforce-now/icon.png",
+                 "size":  14940,
+                 "sha256":  "bffb75a4653e720a678e650bb76dc4673c254eae7a3017e12de63279d4328747"
+             },
+    "background":  {
+                       "path":  "deepwater/geforce-now/background.jpg",
+                       "size":  53650,
+                       "sha256":  "be2227d1b5a4a52d7a9c63b7278775e3810123109c78dd96b2c2beea7080b719"
+                   }
 }
