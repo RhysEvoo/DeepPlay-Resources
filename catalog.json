@@ -1,7 +1,7 @@
 {
     "catalog":  1,
     "channel":  "public",
-    "updated":  "2026-11-13T01:59:31Z",
+    "updated":  "2026-11-13T02:44:40Z",
     "plugins":  [
                     {
                         "id":  "pc-streaming",
@@ -40,8 +40,8 @@
                         "id":  "xbox",
                         "name":  "Xbox",
                         "publisher":  "DeepPlay",
-                        "version":  "0.6",
-                        "versionCode":  7,
+                        "version":  "0.7",
+                        "versionCode":  8,
                         "api":  1,
                         "apiMinor":  6,
                         "requires":  "A Microsoft account, linked to your DeepPlay user",
@@ -50,13 +50,13 @@
                         "tags":  "Cloud,Xbox,Social",
                         "colors":  "1D9A1D,0E4D0E,041604",
                         "whatsNew":  "",
-                        "updated":  "2026-11-13T01:59:25Z",
+                        "updated":  "2026-11-13T02:44:38Z",
                         "apps":  "deepplay",
                         "minAppVersion":  5,
                         "module":  {
                                        "path":  "xbox/module.sprx",
                                        "size":  30885,
-                                       "sha256":  "a57b14d73ecaa6c45675ad1598362b5fbc3efb352b6e5b700aa2d80c3359b996"
+                                       "sha256":  "92d4d1f75b65ddfcf9e6dc59c845969015f41412df1cc797f10af32c097008f5"
                                    },
                         "icon":  {
                                      "path":  "xbox/icon.png",
@@ -65,8 +65,8 @@
                                  },
                         "background":  {
                                            "path":  "xbox/background.jpg",
-                                           "size":  257450,
-                                           "sha256":  "a7bf1ad44dbe0eb3022232bce7e8984f897cd2d079f9c143e618968d123d32a2"
+                                           "size":  47551,
+                                           "sha256":  "48bdfcdf95465c891e6a83284cf82b3c992c4343b0841fa480ae788a73610dc5"
                                        }
                     },
                     {

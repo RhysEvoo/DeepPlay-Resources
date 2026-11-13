@@ -2,8 +2,8 @@
     "id":  "geforce-now",
     "name":  "GeForce NOW",
     "publisher":  "DeepPlay",
-    "version":  "0.26",
-    "versionCode":  33,
+    "version":  "0.27",
+    "versionCode":  34,
     "api":  1,
     "apiMinor":  6,
     "requires":  "A GeForce NOW account (NVIDIA, or a partner such as ABYA)",
@@ -12,13 +12,13 @@
     "tags":  "Streaming,Cloud",
     "colors":  "76B900,2D4A00,0A0F02",
     "whatsNew":  "Pick the server region your games stream from, in Settings \u003e Plugins \u003e GeForce NOW (needs DeepPlay 00.70).",
-    "updated":  "2026-11-13T01:56:32Z",
+    "updated":  "2026-11-13T02:44:46Z",
     "apps":  "deepwater",
     "minAppVersion":  57,
     "module":  {
                    "path":  "deepwater/geforce-now/module.sprx",
-                   "size":  68378,
-                   "sha256":  "0fb66b608341da21e07ac88c2f9a76483f069dbd16f56ca3e37fa08f38550d73"
+                   "size":  68515,
+                   "sha256":  "27ca243c090e3cd892f6954111270736e5e64e469855e3b7dcabe6d1ac84b2ca"
                },
     "icon":  {
                  "path":  "deepwater/geforce-now/icon.png",

@@ -2,8 +2,8 @@
     "id":  "xbox",
     "name":  "Xbox",
     "publisher":  "DeepPlay",
-    "version":  "0.7",
-    "versionCode":  8,
+    "version":  "0.8",
+    "versionCode":  9,
     "api":  1,
     "apiMinor":  6,
     "requires":  "A Microsoft account, linked to your DeepPlay user",
@@ -12,13 +12,13 @@
     "tags":  "Cloud,Xbox,Social",
     "colors":  "1D9A1D,0E4D0E,041604",
     "whatsNew":  "",
-    "updated":  "2026-11-13T01:59:27Z",
+    "updated":  "2026-11-13T02:44:40Z",
     "apps":  "deepwater",
     "minAppVersion":  57,
     "module":  {
                    "path":  "deepwater/xbox/module.sprx",
                    "size":  30885,
-                   "sha256":  "ba7a611fcb0c1092b0e7f70f5d67583f1612f7cc27d026324abdb003f40212cb"
+                   "sha256":  "4145fe925791348d0d778ded9fda1e6e45b790b737c57fcb9e7de934b9c41de4"
                },
     "icon":  {
                  "path":  "deepwater/xbox/icon.png",
@@ -27,7 +27,7 @@
              },
     "background":  {
                        "path":  "deepwater/xbox/background.jpg",
-                       "size":  257450,
-                       "sha256":  "a7bf1ad44dbe0eb3022232bce7e8984f897cd2d079f9c143e618968d123d32a2"
+                       "size":  47551,
+                       "sha256":  "48bdfcdf95465c891e6a83284cf82b3c992c4343b0841fa480ae788a73610dc5"
                    }
 }

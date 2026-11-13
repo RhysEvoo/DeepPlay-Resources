@@ -2,8 +2,8 @@
     "id":  "youtube",
     "name":  "YouTube",
     "publisher":  "DeepPlay",
-    "version":  "0.6",
-    "versionCode":  6,
+    "version":  "0.7",
+    "versionCode":  7,
     "api":  1,
     "apiMinor":  10,
     "requires":  "Project DeepWater 00.62 or newer",
@@ -12,18 +12,18 @@
     "tags":  "Video,Media",
     "colors":  "FF0033,5A0012,140005",
     "whatsNew":  "New key art behind its page in DeepHub.",
-    "updated":  "2026-11-13T02:01:49Z",
+    "updated":  "2026-11-13T02:44:28Z",
     "apps":  "deepwater",
     "minAppVersion":  62,
     "module":  {
                    "path":  "deepwater/youtube/module.sprx",
                    "size":  41236,
-                   "sha256":  "4c1b28a42c8d3d295a135b6a87c79bfe542688599ba559b0a96cb30dec62ffb4"
+                   "sha256":  "d9ca7392d2398f49f44175570d9870bf7644db027bfb90c7606cf3d311d6106f"
                },
     "icon":  {
                  "path":  "deepwater/youtube/icon.png",
-                 "size":  9132,
-                 "sha256":  "a36a820a29d297b07b311d0439bfe2543970795cf4aee507b569a1621c1d4d64"
+                 "size":  7988,
+                 "sha256":  "443e029e86575c0d8a99c9fd4273dc08517dd30e274e9bf611429b1b61896d9b"
              },
     "background":  {
                        "path":  "deepwater/youtube/background.jpg",
