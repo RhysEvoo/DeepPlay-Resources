@@ -1,7 +1,7 @@
 {
     "catalog":  1,
     "channel":  "early",
-    "updated":  "2026-11-16T21:08:25Z",
+    "updated":  "2026-11-16T22:03:15Z",
     "plugins":  [
                     {
                         "id":  "boosteroid",
@@ -172,8 +172,8 @@
                         "id":  "xbox",
                         "name":  "Xbox",
                         "publisher":  "DeepPlay",
-                        "version":  "0.9",
-                        "versionCode":  10,
+                        "version":  "0.10",
+                        "versionCode":  11,
                         "api":  1,
                         "apiMinor":  6,
                         "requires":  "A Microsoft account, linked to your DeepPlay user",
@@ -181,14 +181,14 @@
                         "description":  "Browse the games you can stream with Xbox Cloud Gaming and add them to your library, play them, see your Gamerscore and membership, and send and receive messages with your Xbox friends, all on your PS3. Link a Microsoft account to your DeepPlay user to start. Not made by or affiliated with Microsoft.",
                         "tags":  "Cloud,Xbox,Social",
                         "colors":  "1D9A1D,0E4D0E,041604",
-                        "whatsNew":  "",
-                        "updated":  "2026-11-16T15:35:04Z",
+                        "whatsNew":  "The app opens on Browse, the Xbox Series look: every cloud game in one grid, with categories, sort and search (Project DeepWater 00.72 and on). It loads first, before Discover.",
+                        "updated":  "2026-11-16T22:03:15Z",
                         "apps":  "deepwater",
                         "minAppVersion":  57,
                         "module":  {
                                        "path":  "deepwater/xbox/module.sprx",
-                                       "size":  34671,
-                                       "sha256":  "65645f4075d42315cc837fd5abca5bfe20dddfb16516633ccf5456efa6dabe49"
+                                       "size":  34707,
+                                       "sha256":  "b36bcccd4817c117864af1cc3db8230688ab44b342da7849e22cb0aa40f801f1"
                                    },
                         "icon":  {
                                      "path":  "deepwater/xbox/icon.png",
