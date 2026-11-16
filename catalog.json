@@ -1,7 +1,7 @@
 {
     "catalog":  1,
     "channel":  "public",
-    "updated":  "2026-11-16T14:44:41Z",
+    "updated":  "2026-11-16T20:09:23Z",
     "plugins":  [
                     {
                         "id":  "discord",
@@ -40,8 +40,8 @@
                         "id":  "geforce-now",
                         "name":  "GeForce NOW",
                         "publisher":  "DeepPlay",
-                        "version":  "0.29",
-                        "versionCode":  36,
+                        "version":  "0.30",
+                        "versionCode":  37,
                         "api":  1,
                         "apiMinor":  6,
                         "requires":  "A GeForce NOW account (NVIDIA, or a partner such as ABYA)",
@@ -49,14 +49,14 @@
                         "description":  "Find any of the games GeForce NOW streams, add them to your library, and play them on your PS3. Sign in with your NVIDIA account, or your ABYA or other partner account, and link Steam, Epic and other stores from the Account tab. Not made by or affiliated with NVIDIA.",
                         "tags":  "Streaming,Cloud",
                         "colors":  "76B900,2D4A00,0A0F02",
-                        "whatsNew":  "Pick the server region your games stream from, in Settings \u003e Plugins \u003e GeForce NOW (needs DeepPlay 00.70).",
-                        "updated":  "2026-11-16T05:21:22Z",
+                        "whatsNew":  "Signing in from the Account tab: the QR screen says whose account it is for, and Back then Sign in again switches between NVIDIA and your country\u0027s partner (ABYA, say).",
+                        "updated":  "2026-11-16T20:09:18Z",
                         "apps":  "deepplay",
                         "minAppVersion":  6,
                         "module":  {
                                        "path":  "geforce-now/module.sprx",
-                                       "size":  70244,
-                                       "sha256":  "45a45eab341e7ffad7efa92baaa7615fe57e60a75ef217bc85de41765205cce3"
+                                       "size":  70399,
+                                       "sha256":  "240a51fad6c7d3a572b3af8d5ebda71cfb07acdc2913428c2f1930b3973768b8"
                                    },
                         "icon":  {
                                      "path":  "geforce-now/icon.png",

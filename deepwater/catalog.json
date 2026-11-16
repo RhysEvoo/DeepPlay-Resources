@@ -1,14 +1,14 @@
 {
     "catalog":  1,
     "channel":  "early",
-    "updated":  "2026-11-16T15:02:38Z",
+    "updated":  "2026-11-16T20:09:23Z",
     "plugins":  [
                     {
                         "id":  "boosteroid",
                         "name":  "Boosteroid",
                         "publisher":  "DeepPlay",
-                        "version":  "0.2",
-                        "versionCode":  2,
+                        "version":  "0.3",
+                        "versionCode":  3,
                         "api":  1,
                         "apiMinor":  5,
                         "requires":  "A Boosteroid account with a subscription",
@@ -16,14 +16,14 @@
                         "description":  "Sign in to Boosteroid with a QR code on your phone, then browse and search the games in your Boosteroid library. Playing them on the PS3 comes in an update. Not made by or affiliated with Boosteroid. Built on what the open-source ZERODROID client worked out.",
                         "tags":  "Streaming,Cloud",
                         "colors":  "6A3DE8,2A1466,0B0620",
-                        "whatsNew":  "First version: sign in with a QR code, and your Boosteroid library and search.",
-                        "updated":  "2026-11-16T15:02:36Z",
+                        "whatsNew":  "Discover shows Boosteroid\u0027s catalogue, its collections a shelf each, with your library after them. Search asks as Boosteroid\u0027s own app does.",
+                        "updated":  "2026-11-16T20:09:22Z",
                         "apps":  "deepwater",
                         "minAppVersion":  71,
                         "module":  {
                                        "path":  "deepwater/boosteroid/module.sprx",
-                                       "size":  23093,
-                                       "sha256":  "9424f1ffdf00615b489661fff14a36f36203432aa8352d81e5812fcba58a6a9e"
+                                       "size":  24716,
+                                       "sha256":  "6349eaf9f1946818d68794ffed8b571eb22c778d01e67fe7fc23862d573a8434"
                                    },
                         "icon":  {
                                      "path":  "deepwater/boosteroid/icon.png",
@@ -40,8 +40,8 @@
                         "id":  "cloudmoon",
                         "name":  "CloudMoon",
                         "publisher":  "DeepPlay",
-                        "version":  "0.2",
-                        "versionCode":  2,
+                        "version":  "0.3",
+                        "versionCode":  3,
                         "api":  1,
                         "apiMinor":  5,
                         "requires":  "Nothing: CloudMoon\u0027s free play time, as a guest",
@@ -49,14 +49,14 @@
                         "description":  "Browse and search the mobile games CloudMoon streams from cloud Android phones (Roblox, Genshin Impact and more), with CloudMoon\u0027s free play time as a guest. Playing them on the PS3 comes in an update. Not made by or affiliated with CloudMoon.",
                         "tags":  "Streaming,Cloud,Mobile",
                         "colors":  "7B61FF,2B1F66,0A0820",
-                        "whatsNew":  "First version: CloudMoon\u0027s games, search and your free play time.",
-                        "updated":  "2026-11-16T15:02:38Z",
+                        "whatsNew":  "Discover shows all of CloudMoon\u0027s games on shelves (Popular, Role-playing, Action, Anime and more), with their icons, and loads even when the guest sign-in fails.",
+                        "updated":  "2026-11-16T20:09:23Z",
                         "apps":  "deepwater",
                         "minAppVersion":  71,
                         "module":  {
                                        "path":  "deepwater/cloudmoon/module.sprx",
-                                       "size":  18503,
-                                       "sha256":  "190372c3526dcc815edeb1ca1acde0f2047d200530d1db47a903a5d44eb5fd83"
+                                       "size":  20140,
+                                       "sha256":  "44d685b82fc3895b7c93fdd9875a5066b3479de6e07d20c406e0b8e0423d4cca"
                                    },
                         "icon":  {
                                      "path":  "deepwater/cloudmoon/icon.png",
@@ -106,8 +106,8 @@
                         "id":  "geforce-now",
                         "name":  "GeForce NOW",
                         "publisher":  "DeepPlay",
-                        "version":  "0.30",
-                        "versionCode":  37,
+                        "version":  "0.31",
+                        "versionCode":  38,
                         "api":  1,
                         "apiMinor":  6,
                         "requires":  "A GeForce NOW account (NVIDIA, or a partner such as ABYA)",
@@ -115,14 +115,14 @@
                         "description":  "Find any of the games GeForce NOW streams, add them to your library, and play them on your PS3. Sign in with your NVIDIA account, or your ABYA or other partner account, and link Steam, Epic and other stores from the Account tab. Not made by or affiliated with NVIDIA.",
                         "tags":  "Streaming,Cloud",
                         "colors":  "76B900,2D4A00,0A0F02",
-                        "whatsNew":  "Pick the server region your games stream from, in Settings \u003e Plugins \u003e GeForce NOW (needs DeepPlay 00.70).",
-                        "updated":  "2026-11-16T05:21:24Z",
+                        "whatsNew":  "Signing in from the Account tab: the QR screen says whose account it is for, and Back then Sign in again switches between NVIDIA and your country\u0027s partner (ABYA, say).",
+                        "updated":  "2026-11-16T20:09:20Z",
                         "apps":  "deepwater",
                         "minAppVersion":  57,
                         "module":  {
                                        "path":  "deepwater/geforce-now/module.sprx",
-                                       "size":  70244,
-                                       "sha256":  "0750352dde3e4b4a8325a944ea624b1fad10f47ba5ab6cf96718e204f0c51313"
+                                       "size":  70399,
+                                       "sha256":  "0f62bd68663d7cb24cde9300c44e35910ddb03d109c7bc5c67e911216d04eb40"
                                    },
                         "icon":  {
                                      "path":  "deepwater/geforce-now/icon.png",
@@ -172,8 +172,8 @@
                         "id":  "xbox",
                         "name":  "Xbox",
                         "publisher":  "DeepPlay",
-                        "version":  "0.8",
-                        "versionCode":  9,
+                        "version":  "0.9",
+                        "versionCode":  10,
                         "api":  1,
                         "apiMinor":  6,
                         "requires":  "A Microsoft account, linked to your DeepPlay user",
@@ -182,13 +182,13 @@
                         "tags":  "Cloud,Xbox,Social",
                         "colors":  "1D9A1D,0E4D0E,041604",
                         "whatsNew":  "",
-                        "updated":  "2026-11-13T02:44:40Z",
+                        "updated":  "2026-11-16T15:35:04Z",
                         "apps":  "deepwater",
                         "minAppVersion":  57,
                         "module":  {
                                        "path":  "deepwater/xbox/module.sprx",
-                                       "size":  30885,
-                                       "sha256":  "4145fe925791348d0d778ded9fda1e6e45b790b737c57fcb9e7de934b9c41de4"
+                                       "size":  34671,
+                                       "sha256":  "65645f4075d42315cc837fd5abca5bfe20dddfb16516633ccf5456efa6dabe49"
                                    },
                         "icon":  {
                                      "path":  "deepwater/xbox/icon.png",

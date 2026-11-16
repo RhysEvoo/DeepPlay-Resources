@@ -2,8 +2,8 @@
     "id":  "geforce-now",
     "name":  "GeForce NOW",
     "publisher":  "DeepPlay",
-    "version":  "0.30",
-    "versionCode":  37,
+    "version":  "0.31",
+    "versionCode":  38,
     "api":  1,
     "apiMinor":  6,
     "requires":  "A GeForce NOW account (NVIDIA, or a partner such as ABYA)",
@@ -11,14 +11,14 @@
     "description":  "Find any of the games GeForce NOW streams, add them to your library, and play them on your PS3. Sign in with your NVIDIA account, or your ABYA or other partner account, and link Steam, Epic and other stores from the Account tab. Not made by or affiliated with NVIDIA.",
     "tags":  "Streaming,Cloud",
     "colors":  "76B900,2D4A00,0A0F02",
-    "whatsNew":  "Pick the server region your games stream from, in Settings \u003e Plugins \u003e GeForce NOW (needs DeepPlay 00.70).",
-    "updated":  "2026-11-16T05:21:24Z",
+    "whatsNew":  "Signing in from the Account tab: the QR screen says whose account it is for, and Back then Sign in again switches between NVIDIA and your country\u0027s partner (ABYA, say).",
+    "updated":  "2026-11-16T20:09:20Z",
     "apps":  "deepwater",
     "minAppVersion":  57,
     "module":  {
                    "path":  "deepwater/geforce-now/module.sprx",
-                   "size":  70244,
-                   "sha256":  "0750352dde3e4b4a8325a944ea624b1fad10f47ba5ab6cf96718e204f0c51313"
+                   "size":  70399,
+                   "sha256":  "0f62bd68663d7cb24cde9300c44e35910ddb03d109c7bc5c67e911216d04eb40"
                },
     "icon":  {
                  "path":  "deepwater/geforce-now/icon.png",
