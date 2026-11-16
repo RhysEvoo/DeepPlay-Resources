@@ -2,8 +2,8 @@
     "id":  "discord",
     "name":  "Discord Activity",
     "publisher":  "DeepPlay",
-    "version":  "1.13",
-    "versionCode":  19,
+    "version":  "1.14",
+    "versionCode":  20,
     "api":  1,
     "apiMinor":  6,
     "requires":  "A Discord account (or DeepPlay Companion on your PC)",
@@ -11,14 +11,14 @@
     "description":  "Shows DeepPlay as your activity on Discord, with the game you\u0027re playing, its box art and how long you\u0027ve been playing: Xbox Cloud Gaming, GeForce NOW, Xbox Remote Play and PC Streaming. Sign in with your Discord account by QR code and it works straight from your PS3, no PC needed, or let DeepPlay Companion pass it to Discord on your PC. Turn it off any time.",
     "tags":  "Social,Discord",
     "colors":  "5865F2,2B2F8F,0B0C24",
-    "whatsNew":  "Choose what shows on Discord in Settings \u003e Plugins \u003e Discord Activity: Home and apps, YouTube Music, YouTube, Xbox Cloud games, GeForce NOW games, Remote Play and the console temperatures, each on or off (needs DeepPlay 00.70).\nNew key art behind its page in DeepHub.",
-    "updated":  "2026-11-16T05:21:27Z",
+    "whatsNew":  "Your Discord status shows the new DeepPlay and Project DeepWater logos.",
+    "updated":  "2026-11-16T14:44:39Z",
     "apps":  "deepplay",
     "minAppVersion":  6,
     "module":  {
                    "path":  "discord/module.sprx",
                    "size":  26226,
-                   "sha256":  "1d015eb1cc3d321b704c7b2cab2e543e3b485e57f76b9c8665b7919954725df3"
+                   "sha256":  "78970099c511a22f0aa87d0c47df2b5a68a584a6e6b0ff77be6ab8667d1c083a"
                },
     "icon":  {
                  "path":  "discord/icon.png",
