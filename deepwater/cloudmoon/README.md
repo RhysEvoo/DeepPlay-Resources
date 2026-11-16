@@ -4,7 +4,7 @@ Browse and search the mobile games CloudMoon streams from cloud Android phones (
 
 | | |
 | --- | --- |
-| Version | 0.1 |
+| Version | 0.2 |
 | Publisher | DeepPlay |
 | Needs | Nothing: CloudMoon's free play time, as a guest |
 | Kind | Streaming, Cloud, Mobile |

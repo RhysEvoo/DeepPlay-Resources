@@ -1,14 +1,14 @@
 {
     "catalog":  1,
     "channel":  "early",
-    "updated":  "2026-11-16T14:44:41Z",
+    "updated":  "2026-11-16T15:02:38Z",
     "plugins":  [
                     {
                         "id":  "boosteroid",
                         "name":  "Boosteroid",
                         "publisher":  "DeepPlay",
-                        "version":  "0.1",
-                        "versionCode":  1,
+                        "version":  "0.2",
+                        "versionCode":  2,
                         "api":  1,
                         "apiMinor":  5,
                         "requires":  "A Boosteroid account with a subscription",
@@ -17,18 +17,18 @@
                         "tags":  "Streaming,Cloud",
                         "colors":  "6A3DE8,2A1466,0B0620",
                         "whatsNew":  "First version: sign in with a QR code, and your Boosteroid library and search.",
-                        "updated":  "2026-11-16T05:40:16Z",
+                        "updated":  "2026-11-16T15:02:36Z",
                         "apps":  "deepwater",
                         "minAppVersion":  71,
                         "module":  {
                                        "path":  "deepwater/boosteroid/module.sprx",
                                        "size":  23093,
-                                       "sha256":  "9933ff17eb7a36ff4b68b597d758ec5f70163ef5ab3cd62abfa1469efc93c580"
+                                       "sha256":  "9424f1ffdf00615b489661fff14a36f36203432aa8352d81e5812fcba58a6a9e"
                                    },
                         "icon":  {
                                      "path":  "deepwater/boosteroid/icon.png",
-                                     "size":  12060,
-                                     "sha256":  "e67facaeff4a9e5e4f7c51329fa94d1d1e02d5eb5faf06b0811cd9e58bddd513"
+                                     "size":  20701,
+                                     "sha256":  "0b1ca9ab0c31bae25bc1cdcca107347a30089fbb836e07249fa984b51f2c6a45"
                                  },
                         "background":  {
                                            "path":  "deepwater/boosteroid/background.jpg",
@@ -40,8 +40,8 @@
                         "id":  "cloudmoon",
                         "name":  "CloudMoon",
                         "publisher":  "DeepPlay",
-                        "version":  "0.1",
-                        "versionCode":  1,
+                        "version":  "0.2",
+                        "versionCode":  2,
                         "api":  1,
                         "apiMinor":  5,
                         "requires":  "Nothing: CloudMoon\u0027s free play time, as a guest",
@@ -50,18 +50,18 @@
                         "tags":  "Streaming,Cloud,Mobile",
                         "colors":  "7B61FF,2B1F66,0A0820",
                         "whatsNew":  "First version: CloudMoon\u0027s games, search and your free play time.",
-                        "updated":  "2026-11-16T05:45:03Z",
+                        "updated":  "2026-11-16T15:02:38Z",
                         "apps":  "deepwater",
                         "minAppVersion":  71,
                         "module":  {
                                        "path":  "deepwater/cloudmoon/module.sprx",
                                        "size":  18503,
-                                       "sha256":  "ffe198351212660f66816b41bd92ed2d6ccf303bb0e05bbdc98b50ef41faefa0"
+                                       "sha256":  "190372c3526dcc815edeb1ca1acde0f2047d200530d1db47a903a5d44eb5fd83"
                                    },
                         "icon":  {
                                      "path":  "deepwater/cloudmoon/icon.png",
-                                     "size":  43591,
-                                     "sha256":  "d0fb0894da90792caaafc2128c13629694cc5fa41abed79fc61d17bccacdf53a"
+                                     "size":  52780,
+                                     "sha256":  "516e10f19778a115815ff3691695dde688b2af368e0849a4a35a9863a328d62c"
                                  },
                         "background":  {
                                            "path":  "deepwater/cloudmoon/background.jpg",
