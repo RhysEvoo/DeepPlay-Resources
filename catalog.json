@@ -1,8 +1,74 @@
 {
     "catalog":  1,
     "channel":  "public",
-    "updated":  "2026-11-13T02:44:40Z",
+    "updated":  "2026-11-16T05:21:28Z",
     "plugins":  [
+                    {
+                        "id":  "discord",
+                        "name":  "Discord Activity",
+                        "publisher":  "DeepPlay",
+                        "version":  "1.13",
+                        "versionCode":  19,
+                        "api":  1,
+                        "apiMinor":  6,
+                        "requires":  "A Discord account (or DeepPlay Companion on your PC)",
+                        "pitch":  "Shows DeepPlay as your activity on Discord.",
+                        "description":  "Shows DeepPlay as your activity on Discord, with the game you\u0027re playing, its box art and how long you\u0027ve been playing: Xbox Cloud Gaming, GeForce NOW, Xbox Remote Play and PC Streaming. Sign in with your Discord account by QR code and it works straight from your PS3, no PC needed, or let DeepPlay Companion pass it to Discord on your PC. Turn it off any time.",
+                        "tags":  "Social,Discord",
+                        "colors":  "5865F2,2B2F8F,0B0C24",
+                        "whatsNew":  "Choose what shows on Discord in Settings \u003e Plugins \u003e Discord Activity: Home and apps, YouTube Music, YouTube, Xbox Cloud games, GeForce NOW games, Remote Play and the console temperatures, each on or off (needs DeepPlay 00.70).\nNew key art behind its page in DeepHub.",
+                        "updated":  "2026-11-16T05:21:27Z",
+                        "apps":  "deepplay",
+                        "minAppVersion":  6,
+                        "module":  {
+                                       "path":  "discord/module.sprx",
+                                       "size":  26226,
+                                       "sha256":  "1d015eb1cc3d321b704c7b2cab2e543e3b485e57f76b9c8665b7919954725df3"
+                                   },
+                        "icon":  {
+                                     "path":  "discord/icon.png",
+                                     "size":  8614,
+                                     "sha256":  "52986c1304646e0f9acee0c927f42d31394180382b3522d1a49fbe8926d50f72"
+                                 },
+                        "background":  {
+                                           "path":  "discord/background.jpg",
+                                           "size":  35304,
+                                           "sha256":  "6bc575473bd89cab0089eee5b098e9a227ea3ffc0f4770153e1d08b5f62aa9c8"
+                                       }
+                    },
+                    {
+                        "id":  "geforce-now",
+                        "name":  "GeForce NOW",
+                        "publisher":  "DeepPlay",
+                        "version":  "0.29",
+                        "versionCode":  36,
+                        "api":  1,
+                        "apiMinor":  6,
+                        "requires":  "A GeForce NOW account (NVIDIA, or a partner such as ABYA)",
+                        "pitch":  "Play your GeForce NOW games on your PS3.",
+                        "description":  "Find any of the games GeForce NOW streams, add them to your library, and play them on your PS3. Sign in with your NVIDIA account, or your ABYA or other partner account, and link Steam, Epic and other stores from the Account tab. Not made by or affiliated with NVIDIA.",
+                        "tags":  "Streaming,Cloud",
+                        "colors":  "76B900,2D4A00,0A0F02",
+                        "whatsNew":  "Pick the server region your games stream from, in Settings \u003e Plugins \u003e GeForce NOW (needs DeepPlay 00.70).",
+                        "updated":  "2026-11-16T05:21:22Z",
+                        "apps":  "deepplay",
+                        "minAppVersion":  6,
+                        "module":  {
+                                       "path":  "geforce-now/module.sprx",
+                                       "size":  70244,
+                                       "sha256":  "45a45eab341e7ffad7efa92baaa7615fe57e60a75ef217bc85de41765205cce3"
+                                   },
+                        "icon":  {
+                                     "path":  "geforce-now/icon.png",
+                                     "size":  14940,
+                                     "sha256":  "bffb75a4653e720a678e650bb76dc4673c254eae7a3017e12de63279d4328747"
+                                 },
+                        "background":  {
+                                           "path":  "geforce-now/background.jpg",
+                                           "size":  53650,
+                                           "sha256":  "be2227d1b5a4a52d7a9c63b7278775e3810123109c78dd96b2c2beea7080b719"
+                                       }
+                    },
                     {
                         "id":  "pc-streaming",
                         "name":  "PC Streaming",
@@ -100,6 +166,72 @@
                                            "path":  "xbox-remote-play/background.jpg",
                                            "size":  43017,
                                            "sha256":  "374a3cb165ad62b0a8340b31ed30058a002e1151e0705bcf77486122403b4d83"
+                                       }
+                    },
+                    {
+                        "id":  "youtube",
+                        "name":  "YouTube",
+                        "publisher":  "DeepPlay",
+                        "version":  "0.7",
+                        "versionCode":  7,
+                        "api":  1,
+                        "apiMinor":  10,
+                        "requires":  "Project DeepWater 00.62 or newer",
+                        "pitch":  "Watch YouTube on your PS3, in up to 1080p.",
+                        "description":  "Search all of YouTube and watch videos on your PS3 in 720p or 1080p (the Streaming setting\u0027s resolution). Signed in with your Google account, Home shows YouTube\u0027s recommendations for you, Subscriptions shows the newest from your channels, and Playlists brings your playlists, liked videos and Watch later. Signed out, Home is made from what you watch. Open a channel to see its videos, save videos for later, and pick up where you left off from your watch history. Signing in here also signs in YouTube Music. Not made by or affiliated with Google or YouTube.",
+                        "tags":  "Video,Media",
+                        "colors":  "FF0033,5A0012,140005",
+                        "whatsNew":  "New key art behind its page in DeepHub.",
+                        "updated":  "2026-11-16T05:21:11Z",
+                        "apps":  "deepplay",
+                        "minAppVersion":  6,
+                        "module":  {
+                                       "path":  "youtube/module.sprx",
+                                       "size":  41236,
+                                       "sha256":  "00334d0cdfc77c53b3ad499b375669a57c118d0ea43a3732e5a0647ecef39fd3"
+                                   },
+                        "icon":  {
+                                     "path":  "youtube/icon.png",
+                                     "size":  7988,
+                                     "sha256":  "443e029e86575c0d8a99c9fd4273dc08517dd30e274e9bf611429b1b61896d9b"
+                                 },
+                        "background":  {
+                                           "path":  "youtube/background.jpg",
+                                           "size":  40339,
+                                           "sha256":  "b9068d7f852528571d5436f5058bb12d46e9d95b069825c95a1b82deba935b4e"
+                                       }
+                    },
+                    {
+                        "id":  "youtube-music",
+                        "name":  "YouTube Music",
+                        "publisher":  "DeepPlay",
+                        "version":  "0.12",
+                        "versionCode":  11,
+                        "api":  1,
+                        "apiMinor":  9,
+                        "requires":  "Project DeepWater 00.61 or newer",
+                        "pitch":  "Listen to YouTube Music on your PS3, in the background while you browse.",
+                        "description":  "Sign in with your Google account to bring your YouTube playlists and liked videos. Browse YouTube Music\u0027s home, new releases and charts, search for songs, albums, artists and playlists, and play them on your PS3. Music keeps playing in the background while you go round DeepPlay, with the Control Center\u0027s Music card to pause and skip, and stops when a game starts. Save songs, albums and playlists to your library on this PS3. Signed out, everything but your own playlists works. Not made by or affiliated with Google or YouTube.",
+                        "tags":  "Music,Media",
+                        "colors":  "FF0033,5A0012,140005",
+                        "whatsNew":  "When YouTube asks \"Sign in to confirm you\u0027re not a bot\", it tries once more with a new visitor id.\nAfter three songs in a row won\u0027t play, it stops and says why instead of asking for the whole queue.\nNew key art behind its page in DeepHub.",
+                        "updated":  "2026-11-16T05:21:19Z",
+                        "apps":  "deepplay",
+                        "minAppVersion":  6,
+                        "module":  {
+                                       "path":  "youtube-music/module.sprx",
+                                       "size":  44051,
+                                       "sha256":  "0cc8ef6e97989493a687b050a6d834ed956426752a24c0907098ce6624e0de02"
+                                   },
+                        "icon":  {
+                                     "path":  "youtube-music/icon.png",
+                                     "size":  10899,
+                                     "sha256":  "2b3886af6cc620a1a9fb3507f0de739e8f9eee721f614320d8a96c369a7b9e99"
+                                 },
+                        "background":  {
+                                           "path":  "youtube-music/background.jpg",
+                                           "size":  47976,
+                                           "sha256":  "7640a0a7871ce73ac44468ccf355eda1d4e515616927422f54cc86d97f64b4ca"
                                        }
                     }
                 ]

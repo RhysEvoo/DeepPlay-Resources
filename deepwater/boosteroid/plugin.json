@@ -1,0 +1,33 @@
+{
+    "id":  "boosteroid",
+    "name":  "Boosteroid",
+    "publisher":  "DeepPlay",
+    "version":  "0.1",
+    "versionCode":  1,
+    "api":  1,
+    "apiMinor":  5,
+    "requires":  "A Boosteroid account with a subscription",
+    "pitch":  "Your Boosteroid library on your PS3.",
+    "description":  "Sign in to Boosteroid with a QR code on your phone, then browse and search the games in your Boosteroid library. Playing them on the PS3 comes in an update. Not made by or affiliated with Boosteroid. Built on what the open-source ZERODROID client worked out.",
+    "tags":  "Streaming,Cloud",
+    "colors":  "6A3DE8,2A1466,0B0620",
+    "whatsNew":  "First version: sign in with a QR code, and your Boosteroid library and search.",
+    "updated":  "2026-11-16T05:40:16Z",
+    "apps":  "deepwater",
+    "minAppVersion":  71,
+    "module":  {
+                   "path":  "deepwater/boosteroid/module.sprx",
+                   "size":  23093,
+                   "sha256":  "9933ff17eb7a36ff4b68b597d758ec5f70163ef5ab3cd62abfa1469efc93c580"
+               },
+    "icon":  {
+                 "path":  "deepwater/boosteroid/icon.png",
+                 "size":  12060,
+                 "sha256":  "e67facaeff4a9e5e4f7c51329fa94d1d1e02d5eb5faf06b0811cd9e58bddd513"
+             },
+    "background":  {
+                       "path":  "deepwater/boosteroid/background.jpg",
+                       "size":  21218,
+                       "sha256":  "e9a881b24f6620afddd9274cedee119003ba90491c0d1cdf98e633b975ab1ef1"
+                   }
+}

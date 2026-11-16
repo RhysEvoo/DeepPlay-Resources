@@ -1,0 +1,33 @@
+{
+    "id":  "cloudmoon",
+    "name":  "CloudMoon",
+    "publisher":  "DeepPlay",
+    "version":  "0.1",
+    "versionCode":  1,
+    "api":  1,
+    "apiMinor":  5,
+    "requires":  "Nothing: CloudMoon\u0027s free play time, as a guest",
+    "pitch":  "Mobile games from the cloud, on your PS3.",
+    "description":  "Browse and search the mobile games CloudMoon streams from cloud Android phones (Roblox, Genshin Impact and more), with CloudMoon\u0027s free play time as a guest. Playing them on the PS3 comes in an update. Not made by or affiliated with CloudMoon.",
+    "tags":  "Streaming,Cloud,Mobile",
+    "colors":  "7B61FF,2B1F66,0A0820",
+    "whatsNew":  "First version: CloudMoon\u0027s games, search and your free play time.",
+    "updated":  "2026-11-16T05:45:03Z",
+    "apps":  "deepwater",
+    "minAppVersion":  71,
+    "module":  {
+                   "path":  "deepwater/cloudmoon/module.sprx",
+                   "size":  18503,
+                   "sha256":  "ffe198351212660f66816b41bd92ed2d6ccf303bb0e05bbdc98b50ef41faefa0"
+               },
+    "icon":  {
+                 "path":  "deepwater/cloudmoon/icon.png",
+                 "size":  43591,
+                 "sha256":  "d0fb0894da90792caaafc2128c13629694cc5fa41abed79fc61d17bccacdf53a"
+             },
+    "background":  {
+                       "path":  "deepwater/cloudmoon/background.jpg",
+                       "size":  24961,
+                       "sha256":  "88916692910436b45f4b47ac95a567744469f31a3dc99dae91bf623699fac626"
+                   }
+}

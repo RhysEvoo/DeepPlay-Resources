@@ -4,7 +4,7 @@ Sign in with your Google account to bring your YouTube playlists and liked video
 
 | | |
 | --- | --- |
-| Version | 0.12 |
+| Version | 0.13 |
 | Publisher | DeepPlay |
 | Needs | Project DeepWater 00.61 or newer |
 | Kind | Music, Media |
