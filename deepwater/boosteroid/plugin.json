@@ -2,8 +2,8 @@
     "id":  "boosteroid",
     "name":  "Boosteroid",
     "publisher":  "DeepPlay",
-    "version":  "0.5",
-    "versionCode":  5,
+    "version":  "0.7",
+    "versionCode":  7,
     "api":  1,
     "apiMinor":  5,
     "requires":  "A Boosteroid account with a subscription",
@@ -11,14 +11,14 @@
     "description":  "Sign in to Boosteroid with a QR code on your phone, then browse and search the games in your Boosteroid library. Play them on the PS3 (Project DeepWater 00.72 and on): Start + Select leaves a game, L3 + R3 is the Xbox button. Not made by or affiliated with Boosteroid. Built on what the open-source ZERODROID client worked out.",
     "tags":  "Streaming,Cloud",
     "colors":  "6A3DE8,2A1466,0B0620",
-    "whatsNew":  "Play: games now stream on the PS3, through Boosteroid\u0027s own stream as its Android TV app gets it (needs Project DeepWater 00.72). Start + Select leaves; L3 + R3 is the Xbox button. First version: tell us how it goes.",
-    "updated":  "2026-11-16T21:08:24Z",
+    "whatsNew":  "A new look, Boosteroid\u0027s own: the game in focus fills the screen, with PLAY and Add to my games, then My games, the whole Catalogue by genre and order, and Search, on wide cards (needs Project DeepWater 00.73).",
+    "updated":  "2026-11-17T15:30:55Z",
     "apps":  "deepwater",
     "minAppVersion":  71,
     "module":  {
                    "path":  "deepwater/boosteroid/module.sprx",
-                   "size":  44146,
-                   "sha256":  "1f14e0bc98cc35643f1e7712f3c76f285272c2b8fee7cece75a615fed809cc4e"
+                   "size":  49050,
+                   "sha256":  "0862c01444d4eb880db30f2fa36836e6fd916a04a619ba5eb32366a1d271b98a"
                },
     "icon":  {
                  "path":  "deepwater/boosteroid/icon.png",

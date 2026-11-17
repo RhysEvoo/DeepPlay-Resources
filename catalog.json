@@ -1,7 +1,7 @@
 {
     "catalog":  1,
     "channel":  "public",
-    "updated":  "2026-11-16T23:12:04Z",
+    "updated":  "2026-11-17T01:42:47Z",
     "plugins":  [
                     {
                         "id":  "discord",
@@ -106,8 +106,8 @@
                         "id":  "xbox",
                         "name":  "Xbox",
                         "publisher":  "DeepPlay",
-                        "version":  "0.8",
-                        "versionCode":  9,
+                        "version":  "0.9",
+                        "versionCode":  10,
                         "api":  1,
                         "apiMinor":  6,
                         "requires":  "A Microsoft account, linked to your DeepPlay user",
@@ -115,14 +115,14 @@
                         "description":  "Browse the games you can stream with Xbox Cloud Gaming and add them to your library, play them, see your Gamerscore and membership, and send and receive messages with your Xbox friends, all on your PS3. Link a Microsoft account to your DeepPlay user to start. Not made by or affiliated with Microsoft.",
                         "tags":  "Cloud,Xbox,Social",
                         "colors":  "1D9A1D,0E4D0E,041604",
-                        "whatsNew":  "A new look after the Xbox Series dashboard: every cloud game in one grid, with categories, sort and search, and a Search tab (the grid needs DeepPlay 00.07 or Project DeepWater 00.72). The app opens on it.",
-                        "updated":  "2026-11-16T23:12:02Z",
+                        "whatsNew":  "Search finds games as soon as the app opens, with suggestions as you type; a game\u0027s page shows its wide picture. The new look: every cloud game in one grid, with categories and sort (the grid needs DeepPlay 00.07 or Project DeepWater 00.72).",
+                        "updated":  "2026-11-17T01:42:44Z",
                         "apps":  "deepplay",
                         "minAppVersion":  5,
                         "module":  {
                                        "path":  "xbox/module.sprx",
-                                       "size":  34707,
-                                       "sha256":  "36a04b4f4aea0f84f78fb4659ee1ba6796cf40382743828fcf433b36e40b69e7"
+                                       "size":  35491,
+                                       "sha256":  "8e9d12d62822bb02495c49da1e504f78e84f33e1a1b81a64d5d0383dfe4cc2e2"
                                    },
                         "icon":  {
                                      "path":  "xbox/icon.png",

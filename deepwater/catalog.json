@@ -1,14 +1,14 @@
 {
     "catalog":  1,
     "channel":  "early",
-    "updated":  "2026-11-16T23:12:04Z",
+    "updated":  "2026-11-17T15:30:56Z",
     "plugins":  [
                     {
                         "id":  "boosteroid",
                         "name":  "Boosteroid",
                         "publisher":  "DeepPlay",
-                        "version":  "0.5",
-                        "versionCode":  5,
+                        "version":  "0.7",
+                        "versionCode":  7,
                         "api":  1,
                         "apiMinor":  5,
                         "requires":  "A Boosteroid account with a subscription",
@@ -16,14 +16,14 @@
                         "description":  "Sign in to Boosteroid with a QR code on your phone, then browse and search the games in your Boosteroid library. Play them on the PS3 (Project DeepWater 00.72 and on): Start + Select leaves a game, L3 + R3 is the Xbox button. Not made by or affiliated with Boosteroid. Built on what the open-source ZERODROID client worked out.",
                         "tags":  "Streaming,Cloud",
                         "colors":  "6A3DE8,2A1466,0B0620",
-                        "whatsNew":  "Play: games now stream on the PS3, through Boosteroid\u0027s own stream as its Android TV app gets it (needs Project DeepWater 00.72). Start + Select leaves; L3 + R3 is the Xbox button. First version: tell us how it goes.",
-                        "updated":  "2026-11-16T21:08:24Z",
+                        "whatsNew":  "A new look, Boosteroid\u0027s own: the game in focus fills the screen, with PLAY and Add to my games, then My games, the whole Catalogue by genre and order, and Search, on wide cards (needs Project DeepWater 00.73).",
+                        "updated":  "2026-11-17T15:30:55Z",
                         "apps":  "deepwater",
                         "minAppVersion":  71,
                         "module":  {
                                        "path":  "deepwater/boosteroid/module.sprx",
-                                       "size":  44146,
-                                       "sha256":  "1f14e0bc98cc35643f1e7712f3c76f285272c2b8fee7cece75a615fed809cc4e"
+                                       "size":  49050,
+                                       "sha256":  "0862c01444d4eb880db30f2fa36836e6fd916a04a619ba5eb32366a1d271b98a"
                                    },
                         "icon":  {
                                      "path":  "deepwater/boosteroid/icon.png",
@@ -40,8 +40,8 @@
                         "id":  "cloudmoon",
                         "name":  "CloudMoon",
                         "publisher":  "DeepPlay",
-                        "version":  "0.3",
-                        "versionCode":  3,
+                        "version":  "0.4",
+                        "versionCode":  4,
                         "api":  1,
                         "apiMinor":  5,
                         "requires":  "Nothing: CloudMoon\u0027s free play time, as a guest",
@@ -49,14 +49,14 @@
                         "description":  "Browse and search the mobile games CloudMoon streams from cloud Android phones (Roblox, Genshin Impact and more), with CloudMoon\u0027s free play time as a guest. Playing them on the PS3 comes in an update. Not made by or affiliated with CloudMoon.",
                         "tags":  "Streaming,Cloud,Mobile",
                         "colors":  "7B61FF,2B1F66,0A0820",
-                        "whatsNew":  "Discover shows all of CloudMoon\u0027s games on shelves (Popular, Role-playing, Action, Anime and more), with their icons, and loads even when the guest sign-in fails.",
-                        "updated":  "2026-11-16T20:09:23Z",
+                        "whatsNew":  "Unlink on the Account tab starts a new guest (it did nothing). Signing in with your own CloudMoon account, and playing, come in an update.",
+                        "updated":  "2026-11-17T01:42:50Z",
                         "apps":  "deepwater",
                         "minAppVersion":  71,
                         "module":  {
                                        "path":  "deepwater/cloudmoon/module.sprx",
-                                       "size":  20140,
-                                       "sha256":  "44d685b82fc3895b7c93fdd9875a5066b3479de6e07d20c406e0b8e0423d4cca"
+                                       "size":  20345,
+                                       "sha256":  "124833f6fa45e3443b26948c6c42cb04680dc87b74ed7e43d214d41ad1e4bf1a"
                                    },
                         "icon":  {
                                      "path":  "deepwater/cloudmoon/icon.png",
@@ -172,8 +172,8 @@
                         "id":  "xbox",
                         "name":  "Xbox",
                         "publisher":  "DeepPlay",
-                        "version":  "0.11",
-                        "versionCode":  12,
+                        "version":  "0.12",
+                        "versionCode":  13,
                         "api":  1,
                         "apiMinor":  6,
                         "requires":  "A Microsoft account, linked to your DeepPlay user",
@@ -181,14 +181,14 @@
                         "description":  "Browse the games you can stream with Xbox Cloud Gaming and add them to your library, play them, see your Gamerscore and membership, and send and receive messages with your Xbox friends, all on your PS3. Link a Microsoft account to your DeepPlay user to start. Not made by or affiliated with Microsoft.",
                         "tags":  "Cloud,Xbox,Social",
                         "colors":  "1D9A1D,0E4D0E,041604",
-                        "whatsNew":  "A new look after the Xbox Series dashboard: every cloud game in one grid, with categories, sort and search, and a Search tab (the grid needs DeepPlay 00.07 or Project DeepWater 00.72). The app opens on it.",
-                        "updated":  "2026-11-16T23:12:04Z",
+                        "whatsNew":  "Search finds games as soon as the app opens, with suggestions as you type; a game\u0027s page shows its wide picture. The new look: every cloud game in one grid, with categories and sort (the grid needs DeepPlay 00.07 or Project DeepWater 00.72).",
+                        "updated":  "2026-11-17T01:42:46Z",
                         "apps":  "deepwater",
                         "minAppVersion":  57,
                         "module":  {
                                        "path":  "deepwater/xbox/module.sprx",
-                                       "size":  34707,
-                                       "sha256":  "92aa5d51cebfc62313ee3db2cefcca137f1a3162dc5485a4782c0e3bbf155e9e"
+                                       "size":  35491,
+                                       "sha256":  "a5632bbaf032308de791630e264cddf61fc2b95018168ade444384a64992f8df"
                                    },
                         "icon":  {
                                      "path":  "deepwater/xbox/icon.png",
