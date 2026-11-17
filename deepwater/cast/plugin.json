@@ -1,0 +1,33 @@
+{
+    "id":  "cast",
+    "name":  "DeepPlay Cast",
+    "publisher":  "DeepPlay",
+    "version":  "1.0",
+    "versionCode":  1,
+    "api":  1,
+    "apiMinor":  23,
+    "requires":  "Project DeepWater 00.74 or newer, and a phone or computer on the same Wi-Fi",
+    "pitch":  "Cast videos, music and photos to your PS3 from your phone or computer.",
+    "description":  "Turns your PS3 into a casting receiver for your TV. Casting apps on the same Wi-Fi find it by themselves: Windows\u0027 Cast to Device, VLC, BubbleUPnP, Web Video Caster and other DLNA apps. Pick the PS3 and a video, song or photo plays on the TV, while the app stays your remote for play, pause, seek, volume and the queue. No app? Scan the QR code for the web remote: paste a link or send a file from any browser. Plays H.264 videos (MP4, MKV), MP3, M4A, FLAC, WAV and Ogg music, and JPEG and PNG photos. Asks before playing from a new device unless you allow it. Not Google Cast: Google\u0027s own apps only cast to devices Google signs.",
+    "tags":  "Media,Streaming",
+    "colors":  "0070D1,0B2A5C,060C1E",
+    "whatsNew":  "New: cast to your PS3.",
+    "updated":  "2026-11-17T21:34:00Z",
+    "apps":  "deepwater",
+    "minAppVersion":  74,
+    "module":  {
+                   "path":  "deepwater/cast/module.sprx",
+                   "size":  45486,
+                   "sha256":  "92fb3bb86105a961e89a99a9508491520c78dc7a993b6f7c72dbe019ec6cd2c1"
+               },
+    "icon":  {
+                 "path":  "deepwater/cast/icon.png",
+                 "size":  7283,
+                 "sha256":  "f65871102e711b164f8d308f3a131fb315d6622be2d7ab3c4430f22dce1a9ab3"
+             },
+    "background":  {
+                       "path":  "deepwater/cast/background.jpg",
+                       "size":  29703,
+                       "sha256":  "73bdeedcf7451ea458dd0eacf6f4959a6632ebab07a126472c3b34ee8c95b4eb"
+                   }
+}

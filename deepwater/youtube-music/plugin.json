@@ -2,8 +2,8 @@
     "id":  "youtube-music",
     "name":  "YouTube Music",
     "publisher":  "DeepPlay",
-    "version":  "0.13",
-    "versionCode":  12,
+    "version":  "0.14",
+    "versionCode":  13,
     "api":  1,
     "apiMinor":  9,
     "requires":  "Project DeepWater 00.61 or newer",
@@ -11,14 +11,14 @@
     "description":  "Sign in with your Google account to bring your YouTube playlists and liked videos. Browse YouTube Music\u0027s home, new releases and charts, search for songs, albums, artists and playlists, and play them on your PS3. Music keeps playing in the background while you go round DeepPlay, with the Control Center\u0027s Music card to pause and skip, and stops when a game starts. Save songs, albums and playlists to your library on this PS3. Signed out, everything but your own playlists works. Not made by or affiliated with Google or YouTube.",
     "tags":  "Music,Media",
     "colors":  "FF0033,5A0012,140005",
-    "whatsNew":  "When YouTube asks \"Sign in to confirm you\u0027re not a bot\", it tries once more with a new visitor id.\nAfter three songs in a row won\u0027t play, it stops and says why instead of asking for the whole queue.\nNew key art behind its page in DeepHub.",
-    "updated":  "2026-11-16T05:21:21Z",
+    "whatsNew":  "Home is more yours: Your favourites and Because you like an artist you play, and once it knows what you listen to, trending and chart rows leave the first page.\nUp next fills with what plays after as soon as a song starts (needs DeepWater 00.73).",
+    "updated":  "2026-11-17T20:41:54Z",
     "apps":  "deepwater",
     "minAppVersion":  61,
     "module":  {
                    "path":  "deepwater/youtube-music/module.sprx",
-                   "size":  44051,
-                   "sha256":  "40be884036ad6df6942c745effc832b5fcf176b7a66a66d5d2189fdeb3f00f5c"
+                   "size":  45935,
+                   "sha256":  "3f7cc2e5b027c255c43588b098d87d5ae4f8e46775c7a8cda7c512c00c573071"
                },
     "icon":  {
                  "path":  "deepwater/youtube-music/icon.png",

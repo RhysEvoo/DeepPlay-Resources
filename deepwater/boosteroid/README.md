@@ -4,7 +4,7 @@ Sign in to Boosteroid with a QR code on your phone, then browse and search the g
 
 | | |
 | --- | --- |
-| Version | 0.7 |
+| Version | 0.8 |
 | Publisher | DeepPlay |
 | Needs | A Boosteroid account with a subscription |
 | Kind | Streaming, Cloud |

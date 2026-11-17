@@ -1,14 +1,14 @@
 {
     "catalog":  1,
     "channel":  "early",
-    "updated":  "2026-11-17T16:15:59Z",
+    "updated":  "2026-11-17T21:34:00Z",
     "plugins":  [
                     {
                         "id":  "boosteroid",
                         "name":  "Boosteroid",
                         "publisher":  "DeepPlay",
-                        "version":  "0.7",
-                        "versionCode":  7,
+                        "version":  "0.8",
+                        "versionCode":  8,
                         "api":  1,
                         "apiMinor":  5,
                         "requires":  "A Boosteroid account with a subscription",
@@ -17,13 +17,13 @@
                         "tags":  "Streaming,Cloud",
                         "colors":  "6A3DE8,2A1466,0B0620",
                         "whatsNew":  "A new look, Boosteroid\u0027s own: the game in focus fills the screen, with PLAY and Add to my games, then My games, the whole Catalogue by genre and order, and Search, on wide cards (needs Project DeepWater 00.73).",
-                        "updated":  "2026-11-17T15:30:55Z",
+                        "updated":  "2026-11-17T20:27:04Z",
                         "apps":  "deepwater",
                         "minAppVersion":  71,
                         "module":  {
                                        "path":  "deepwater/boosteroid/module.sprx",
-                                       "size":  49050,
-                                       "sha256":  "0862c01444d4eb880db30f2fa36836e6fd916a04a619ba5eb32366a1d271b98a"
+                                       "size":  50204,
+                                       "sha256":  "33a7d31ba538a087e70c1b9b405232a1718a199ce138d474d96c4ff84a2442e6"
                                    },
                         "icon":  {
                                      "path":  "deepwater/boosteroid/icon.png",
@@ -67,6 +67,39 @@
                                            "path":  "deepwater/cloudmoon/background.jpg",
                                            "size":  24961,
                                            "sha256":  "88916692910436b45f4b47ac95a567744469f31a3dc99dae91bf623699fac626"
+                                       }
+                    },
+                    {
+                        "id":  "cast",
+                        "name":  "DeepPlay Cast",
+                        "publisher":  "DeepPlay",
+                        "version":  "1.0",
+                        "versionCode":  1,
+                        "api":  1,
+                        "apiMinor":  23,
+                        "requires":  "Project DeepWater 00.74 or newer, and a phone or computer on the same Wi-Fi",
+                        "pitch":  "Cast videos, music and photos to your PS3 from your phone or computer.",
+                        "description":  "Turns your PS3 into a casting receiver for your TV. Casting apps on the same Wi-Fi find it by themselves: Windows\u0027 Cast to Device, VLC, BubbleUPnP, Web Video Caster and other DLNA apps. Pick the PS3 and a video, song or photo plays on the TV, while the app stays your remote for play, pause, seek, volume and the queue. No app? Scan the QR code for the web remote: paste a link or send a file from any browser. Plays H.264 videos (MP4, MKV), MP3, M4A, FLAC, WAV and Ogg music, and JPEG and PNG photos. Asks before playing from a new device unless you allow it. Not Google Cast: Google\u0027s own apps only cast to devices Google signs.",
+                        "tags":  "Media,Streaming",
+                        "colors":  "0070D1,0B2A5C,060C1E",
+                        "whatsNew":  "New: cast to your PS3.",
+                        "updated":  "2026-11-17T21:34:00Z",
+                        "apps":  "deepwater",
+                        "minAppVersion":  74,
+                        "module":  {
+                                       "path":  "deepwater/cast/module.sprx",
+                                       "size":  45486,
+                                       "sha256":  "92fb3bb86105a961e89a99a9508491520c78dc7a993b6f7c72dbe019ec6cd2c1"
+                                   },
+                        "icon":  {
+                                     "path":  "deepwater/cast/icon.png",
+                                     "size":  7283,
+                                     "sha256":  "f65871102e711b164f8d308f3a131fb315d6622be2d7ab3c4430f22dce1a9ab3"
+                                 },
+                        "background":  {
+                                           "path":  "deepwater/cast/background.jpg",
+                                           "size":  29703,
+                                           "sha256":  "73bdeedcf7451ea458dd0eacf6f4959a6632ebab07a126472c3b34ee8c95b4eb"
                                        }
                     },
                     {
@@ -238,8 +271,8 @@
                         "id":  "youtube",
                         "name":  "YouTube",
                         "publisher":  "DeepPlay",
-                        "version":  "0.9",
-                        "versionCode":  9,
+                        "version":  "0.10",
+                        "versionCode":  10,
                         "api":  1,
                         "apiMinor":  10,
                         "requires":  "Project DeepWater 00.62 or newer",
@@ -247,14 +280,14 @@
                         "description":  "Search all of YouTube and watch videos on your PS3 in 720p or 1080p (the Streaming setting\u0027s resolution). Signed in with your Google account, Home shows YouTube\u0027s recommendations for you, Subscriptions shows the newest from your channels, and Playlists brings your playlists, liked videos and Watch later. Signed out, Home is made from what you watch. Open a channel to see its videos, save videos for later, and pick up where you left off from your watch history. Signing in here also signs in YouTube Music. Not made by or affiliated with Google or YouTube.",
                         "tags":  "Video,Media",
                         "colors":  "FF0033,5A0012,140005",
-                        "whatsNew":  "New key art behind its page in DeepHub.",
-                        "updated":  "2026-11-17T16:15:57Z",
+                        "whatsNew":  "Subscriptions starts with your channels; open one for all its videos, its @handle, subscribers and description.\nPlaylists: a History tile opens everything you\u0027ve watched, synced with your account, and Watch history shows your account\u0027s latest.\nSearch adds rows sorted by Newest and Most viewed, and Live now.\nYour own playlists keep every video (they were cut to the music ones).",
+                        "updated":  "2026-11-17T20:41:52Z",
                         "apps":  "deepwater",
                         "minAppVersion":  62,
                         "module":  {
                                        "path":  "deepwater/youtube/module.sprx",
-                                       "size":  41254,
-                                       "sha256":  "454ae699ddc9d75859db1839aa723789bdeec6f1d9f43ca3c8f4179523a12f48"
+                                       "size":  44723,
+                                       "sha256":  "228fa4e2b6484fb3dadfd92f6b0623097af2c92e8d38d6a9a009458aed811edc"
                                    },
                         "icon":  {
                                      "path":  "deepwater/youtube/icon.png",
@@ -271,8 +304,8 @@
                         "id":  "youtube-music",
                         "name":  "YouTube Music",
                         "publisher":  "DeepPlay",
-                        "version":  "0.13",
-                        "versionCode":  12,
+                        "version":  "0.14",
+                        "versionCode":  13,
                         "api":  1,
                         "apiMinor":  9,
                         "requires":  "Project DeepWater 00.61 or newer",
@@ -280,14 +313,14 @@
                         "description":  "Sign in with your Google account to bring your YouTube playlists and liked videos. Browse YouTube Music\u0027s home, new releases and charts, search for songs, albums, artists and playlists, and play them on your PS3. Music keeps playing in the background while you go round DeepPlay, with the Control Center\u0027s Music card to pause and skip, and stops when a game starts. Save songs, albums and playlists to your library on this PS3. Signed out, everything but your own playlists works. Not made by or affiliated with Google or YouTube.",
                         "tags":  "Music,Media",
                         "colors":  "FF0033,5A0012,140005",
-                        "whatsNew":  "When YouTube asks \"Sign in to confirm you\u0027re not a bot\", it tries once more with a new visitor id.\nAfter three songs in a row won\u0027t play, it stops and says why instead of asking for the whole queue.\nNew key art behind its page in DeepHub.",
-                        "updated":  "2026-11-16T05:21:21Z",
+                        "whatsNew":  "Home is more yours: Your favourites and Because you like an artist you play, and once it knows what you listen to, trending and chart rows leave the first page.\nUp next fills with what plays after as soon as a song starts (needs DeepWater 00.73).",
+                        "updated":  "2026-11-17T20:41:54Z",
                         "apps":  "deepwater",
                         "minAppVersion":  61,
                         "module":  {
                                        "path":  "deepwater/youtube-music/module.sprx",
-                                       "size":  44051,
-                                       "sha256":  "40be884036ad6df6942c745effc832b5fcf176b7a66a66d5d2189fdeb3f00f5c"
+                                       "size":  45935,
+                                       "sha256":  "3f7cc2e5b027c255c43588b098d87d5ae4f8e46775c7a8cda7c512c00c573071"
                                    },
                         "icon":  {
                                      "path":  "deepwater/youtube-music/icon.png",
