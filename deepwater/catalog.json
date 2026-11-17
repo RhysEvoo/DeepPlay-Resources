@@ -1,7 +1,7 @@
 {
     "catalog":  1,
     "channel":  "early",
-    "updated":  "2026-11-17T15:30:56Z",
+    "updated":  "2026-11-17T16:15:59Z",
     "plugins":  [
                     {
                         "id":  "boosteroid",
@@ -106,8 +106,8 @@
                         "id":  "geforce-now",
                         "name":  "GeForce NOW",
                         "publisher":  "DeepPlay",
-                        "version":  "0.31",
-                        "versionCode":  38,
+                        "version":  "0.32",
+                        "versionCode":  39,
                         "api":  1,
                         "apiMinor":  6,
                         "requires":  "A GeForce NOW account (NVIDIA, or a partner such as ABYA)",
@@ -116,13 +116,13 @@
                         "tags":  "Streaming,Cloud",
                         "colors":  "76B900,2D4A00,0A0F02",
                         "whatsNew":  "Signing in from the Account tab: the QR screen says whose account it is for, and Back then Sign in again switches between NVIDIA and your country\u0027s partner (ABYA, say).",
-                        "updated":  "2026-11-16T20:09:20Z",
+                        "updated":  "2026-11-17T16:15:59Z",
                         "apps":  "deepwater",
                         "minAppVersion":  57,
                         "module":  {
                                        "path":  "deepwater/geforce-now/module.sprx",
-                                       "size":  70399,
-                                       "sha256":  "0f62bd68663d7cb24cde9300c44e35910ddb03d109c7bc5c67e911216d04eb40"
+                                       "size":  70766,
+                                       "sha256":  "0b21c387e765fa17773e9caf816f79e1fc4dd3e6faa872deaa68d290a072c216"
                                    },
                         "icon":  {
                                      "path":  "deepwater/geforce-now/icon.png",
@@ -238,8 +238,8 @@
                         "id":  "youtube",
                         "name":  "YouTube",
                         "publisher":  "DeepPlay",
-                        "version":  "0.8",
-                        "versionCode":  8,
+                        "version":  "0.9",
+                        "versionCode":  9,
                         "api":  1,
                         "apiMinor":  10,
                         "requires":  "Project DeepWater 00.62 or newer",
@@ -248,13 +248,13 @@
                         "tags":  "Video,Media",
                         "colors":  "FF0033,5A0012,140005",
                         "whatsNew":  "New key art behind its page in DeepHub.",
-                        "updated":  "2026-11-16T05:21:13Z",
+                        "updated":  "2026-11-17T16:15:57Z",
                         "apps":  "deepwater",
                         "minAppVersion":  62,
                         "module":  {
                                        "path":  "deepwater/youtube/module.sprx",
-                                       "size":  41236,
-                                       "sha256":  "27e39f034500450b9a7ccab293a4d48a764667fb2d761dc523d969c78e119cb1"
+                                       "size":  41254,
+                                       "sha256":  "454ae699ddc9d75859db1839aa723789bdeec6f1d9f43ca3c8f4179523a12f48"
                                    },
                         "icon":  {
                                      "path":  "deepwater/youtube/icon.png",
