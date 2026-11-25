@@ -2,8 +2,8 @@
     "id":  "boosteroid",
     "name":  "Boosteroid",
     "publisher":  "DeepPlay",
-    "version":  "0.8",
-    "versionCode":  8,
+    "version":  "0.9",
+    "versionCode":  9,
     "api":  1,
     "apiMinor":  5,
     "requires":  "A Boosteroid account with a subscription",
@@ -12,13 +12,13 @@
     "tags":  "Streaming,Cloud",
     "colors":  "6A3DE8,2A1466,0B0620",
     "whatsNew":  "A new look, Boosteroid\u0027s own: the game in focus fills the screen, with PLAY and Add to my games, then My games, the whole Catalogue by genre and order, and Search, on wide cards (needs Project DeepWater 00.73).",
-    "updated":  "2026-11-17T20:27:04Z",
+    "updated":  "2026-11-21T15:09:29Z",
     "apps":  "deepwater",
     "minAppVersion":  71,
     "module":  {
                    "path":  "deepwater/boosteroid/module.sprx",
-                   "size":  50204,
-                   "sha256":  "33a7d31ba538a087e70c1b9b405232a1718a199ce138d474d96c4ff84a2442e6"
+                   "size":  51513,
+                   "sha256":  "80db4bb6e8e69030a5273d38740767288dcdee77b72791de0d98353f63a93ab1"
                },
     "icon":  {
                  "path":  "deepwater/boosteroid/icon.png",

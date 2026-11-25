@@ -1,14 +1,14 @@
 {
     "catalog":  1,
     "channel":  "early",
-    "updated":  "2026-11-17T21:34:00Z",
+    "updated":  "2026-11-22T19:35:46Z",
     "plugins":  [
                     {
                         "id":  "boosteroid",
                         "name":  "Boosteroid",
                         "publisher":  "DeepPlay",
-                        "version":  "0.8",
-                        "versionCode":  8,
+                        "version":  "0.9",
+                        "versionCode":  9,
                         "api":  1,
                         "apiMinor":  5,
                         "requires":  "A Boosteroid account with a subscription",
@@ -17,13 +17,13 @@
                         "tags":  "Streaming,Cloud",
                         "colors":  "6A3DE8,2A1466,0B0620",
                         "whatsNew":  "A new look, Boosteroid\u0027s own: the game in focus fills the screen, with PLAY and Add to my games, then My games, the whole Catalogue by genre and order, and Search, on wide cards (needs Project DeepWater 00.73).",
-                        "updated":  "2026-11-17T20:27:04Z",
+                        "updated":  "2026-11-21T15:09:29Z",
                         "apps":  "deepwater",
                         "minAppVersion":  71,
                         "module":  {
                                        "path":  "deepwater/boosteroid/module.sprx",
-                                       "size":  50204,
-                                       "sha256":  "33a7d31ba538a087e70c1b9b405232a1718a199ce138d474d96c4ff84a2442e6"
+                                       "size":  51513,
+                                       "sha256":  "80db4bb6e8e69030a5273d38740767288dcdee77b72791de0d98353f63a93ab1"
                                    },
                         "icon":  {
                                      "path":  "deepwater/boosteroid/icon.png",
@@ -40,23 +40,23 @@
                         "id":  "cloudmoon",
                         "name":  "CloudMoon",
                         "publisher":  "DeepPlay",
-                        "version":  "0.4",
-                        "versionCode":  4,
+                        "version":  "0.5",
+                        "versionCode":  5,
                         "api":  1,
-                        "apiMinor":  5,
-                        "requires":  "Nothing: CloudMoon\u0027s free play time, as a guest",
+                        "apiMinor":  24,
+                        "requires":  "Nothing: CloudMoon\u0027s free play time as a guest, or your own CloudMoon account",
                         "pitch":  "Mobile games from the cloud, on your PS3.",
-                        "description":  "Browse and search the mobile games CloudMoon streams from cloud Android phones (Roblox, Genshin Impact and more), with CloudMoon\u0027s free play time as a guest. Playing them on the PS3 comes in an update. Not made by or affiliated with CloudMoon.",
+                        "description":  "Play the mobile games CloudMoon streams from cloud Android phones (Roblox, Genshin Impact and more) on your PS3: as a guest with CloudMoon\u0027s free play time, or signed in with your own CloudMoon account from your phone. The controller plays each game on its own layout (L3 + R3 for a pointer), and a USB keyboard and mouse play as on CloudMoon\u0027s website. Not made by or affiliated with CloudMoon.",
                         "tags":  "Streaming,Cloud,Mobile",
                         "colors":  "7B61FF,2B1F66,0A0820",
-                        "whatsNew":  "Unlink on the Account tab starts a new guest (it did nothing). Signing in with your own CloudMoon account, and playing, come in an update.",
-                        "updated":  "2026-11-17T01:42:50Z",
+                        "whatsNew":  "Games play now, on DeepPlay\u0027s stream screen. Sign in with your own CloudMoon account (scan the QR code on the Account tab). The controller plays on each game\u0027s layout; L3 + R3 switches to a pointer. USB keyboard and mouse supported. Pick CloudMoon\u0027s server in Settings, Plugins, CloudMoon.",
+                        "updated":  "2026-11-22T17:27:03Z",
                         "apps":  "deepwater",
-                        "minAppVersion":  71,
+                        "minAppVersion":  77,
                         "module":  {
                                        "path":  "deepwater/cloudmoon/module.sprx",
-                                       "size":  20345,
-                                       "sha256":  "124833f6fa45e3443b26948c6c42cb04680dc87b74ed7e43d214d41ad1e4bf1a"
+                                       "size":  52610,
+                                       "sha256":  "62a11326ee3072b7d3ad5486b6a3cbddf67beb42c584187821ecc20d418ad626"
                                    },
                         "icon":  {
                                      "path":  "deepwater/cloudmoon/icon.png",
@@ -139,8 +139,8 @@
                         "id":  "geforce-now",
                         "name":  "GeForce NOW",
                         "publisher":  "DeepPlay",
-                        "version":  "0.32",
-                        "versionCode":  39,
+                        "version":  "0.33",
+                        "versionCode":  40,
                         "api":  1,
                         "apiMinor":  6,
                         "requires":  "A GeForce NOW account (NVIDIA, or a partner such as ABYA)",
@@ -149,13 +149,13 @@
                         "tags":  "Streaming,Cloud",
                         "colors":  "76B900,2D4A00,0A0F02",
                         "whatsNew":  "Signing in from the Account tab: the QR screen says whose account it is for, and Back then Sign in again switches between NVIDIA and your country\u0027s partner (ABYA, say).",
-                        "updated":  "2026-11-17T16:15:59Z",
+                        "updated":  "2026-11-21T15:09:24Z",
                         "apps":  "deepwater",
                         "minAppVersion":  57,
                         "module":  {
                                        "path":  "deepwater/geforce-now/module.sprx",
-                                       "size":  70766,
-                                       "sha256":  "0b21c387e765fa17773e9caf816f79e1fc4dd3e6faa872deaa68d290a072c216"
+                                       "size":  71506,
+                                       "sha256":  "4faab6fc7caaf013b45fca76b2f565c237e1ee8e70f4b007435b30c2ed2be79d"
                                    },
                         "icon":  {
                                      "path":  "deepwater/geforce-now/icon.png",
@@ -172,23 +172,23 @@
                         "id":  "pc-streaming",
                         "name":  "PC Streaming",
                         "publisher":  "DeepPlay",
-                        "version":  "1.10",
-                        "versionCode":  12,
+                        "version":  "1.11",
+                        "versionCode":  13,
                         "api":  1,
                         "apiMinor":  6,
                         "requires":  "DeepPlay Companion on your Windows PC",
                         "pitch":  "Your Windows PC\u0027s games and desktop, on your TV.",
-                        "description":  "Stream games and your desktop from a Windows PC running DeepPlay Companion. Use the controller as a gamepad, or as a mouse and keyboard with the on-screen keyboard.",
+                        "description":  "Stream games and your desktop from a Windows PC running DeepPlay Companion. Use the controller as a gamepad, or as a mouse and keyboard with the on-screen keyboard. A USB keyboard and mouse plugged into the PS3 work on the PC as they are.",
                         "tags":  "Streaming,PC",
                         "colors":  "6B3CF0,2A1673,0A0624",
-                        "whatsNew":  "",
-                        "updated":  "2026-11-13T01:59:31Z",
+                        "whatsNew":  "A USB keyboard and mouse plugged into the PS3 now work on your PC as a real keyboard and mouse, in games and on the desktop. Needs DeepWater 00.77 and the latest DeepPlay Companion; with an older Companion they play as a controller. The Windows key or F1 opens DeepPlay\u0027s menu.",
+                        "updated":  "2026-11-22T19:35:46Z",
                         "apps":  "deepwater",
                         "minAppVersion":  57,
                         "module":  {
                                        "path":  "deepwater/pc-streaming/module.sprx",
-                                       "size":  21292,
-                                       "sha256":  "a93eca024f0541e4047b2756090ede3376259453c7cdb13822954dbac8cdebd2"
+                                       "size":  22046,
+                                       "sha256":  "3b6d9932aa5594428004e0751e8301e5eac6403fb7881d8f5f72206782fb92a1"
                                    },
                         "icon":  {
                                      "path":  "deepwater/pc-streaming/icon.png",

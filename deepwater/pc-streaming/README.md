@@ -1,10 +1,10 @@
 # PC Streaming
 
-Stream games and your desktop from a Windows PC running DeepPlay Companion. Use the controller as a gamepad, or as a mouse and keyboard with the on-screen keyboard.
+Stream games and your desktop from a Windows PC running DeepPlay Companion. Use the controller as a gamepad, or as a mouse and keyboard with the on-screen keyboard. A USB keyboard and mouse plugged into the PS3 work on the PC as they are.
 
 | | |
 | --- | --- |
-| Version | 1.10 |
+| Version | 1.11 |
 | Publisher | DeepPlay |
 | Needs | DeepPlay Companion on your Windows PC |
 | Kind | Streaming, PC |

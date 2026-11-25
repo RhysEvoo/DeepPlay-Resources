@@ -2,8 +2,8 @@
     "id":  "geforce-now",
     "name":  "GeForce NOW",
     "publisher":  "DeepPlay",
-    "version":  "0.32",
-    "versionCode":  39,
+    "version":  "0.33",
+    "versionCode":  40,
     "api":  1,
     "apiMinor":  6,
     "requires":  "A GeForce NOW account (NVIDIA, or a partner such as ABYA)",
@@ -12,13 +12,13 @@
     "tags":  "Streaming,Cloud",
     "colors":  "76B900,2D4A00,0A0F02",
     "whatsNew":  "Signing in from the Account tab: the QR screen says whose account it is for, and Back then Sign in again switches between NVIDIA and your country\u0027s partner (ABYA, say).",
-    "updated":  "2026-11-17T16:15:59Z",
+    "updated":  "2026-11-21T15:09:24Z",
     "apps":  "deepwater",
     "minAppVersion":  57,
     "module":  {
                    "path":  "deepwater/geforce-now/module.sprx",
-                   "size":  70766,
-                   "sha256":  "0b21c387e765fa17773e9caf816f79e1fc4dd3e6faa872deaa68d290a072c216"
+                   "size":  71506,
+                   "sha256":  "4faab6fc7caaf013b45fca76b2f565c237e1ee8e70f4b007435b30c2ed2be79d"
                },
     "icon":  {
                  "path":  "deepwater/geforce-now/icon.png",
